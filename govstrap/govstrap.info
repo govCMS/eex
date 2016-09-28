@@ -1,0 +1,59 @@
+name        = govStrap
+description = Light weight bootstrap base theme.
+core        = 7.x
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[header_menu]    = Header Menu
+regions[header]         = Header
+regions[navigation]     = Navigation bar
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = Sidebar left
+regions[sidebar_second] = Sidebar right
+regions[footer]         = Footer
+regions[footer_menu]    = Footer Menu
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Settings
+;;;;;;;;;;;;;;;;;;;;;
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[govstrap_skip_link_anchor] = main-content
+settings[govstrap_skip_link_text]   = Skip to main content
+settings[govstrap_rebuild_registry] = 0
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Javascript.
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = js/scripts.js
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheet.
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/styles.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Excludes
+;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Plugins
+;;;;;;;;;;;;;;;;;;;;;
+
+plugins[panels][layouts] = panels-layouts
