@@ -5,11 +5,16 @@
  */
 ?>
 <header id="header" class="header <?php print $container_class; ?>" role="banner">
-  <?php print render($page['header']); ?>
   <div class="container">
     <div class="row">
+      <div class="col-md-6">
+        <a href="#content" class="skip-top">Skip to content</a>
+      </div>
+      <div class="col-md-6 text-right" id="top-header-menu">
+        <?php print render($page['header']); ?>
+      </div>
       <div class="col-md-9" id="logo">
-        <a href="/"><img src="<?php print '/'.drupal_get_path('theme', 'govstrap').'/img/coas.svg';?>" height="64" alt="EEX Home" /></a>
+        <a href="/"><img src="<?php print '/'.drupal_get_path('theme', 'govstrap').'/img/logo-trans.png';?>" alt="eex.gov.au Energy Efficiency Exchange" /></a>
       </div>
       <div class="col-md-3 text-right" id="search">
         <?php print $search_box; ?>
@@ -71,6 +76,7 @@
       <?php if (!empty($page['footer_menu'])): ?>
         <div id="footer-menu" class="col-md-12 <?php print $container_class; ?>">
           <?php print render($page['footer_menu']); ?>
+          <div class="print-friendly">This site is print friendly</div>
         </div>
       <?php endif; ?>
     </div>
