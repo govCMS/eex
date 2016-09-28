@@ -251,6 +251,47 @@ nav#navigation {
           }
         }
       }
+
+      //Second level items
+      ul {
+        left: 0;
+        margin-top: 1.1em;
+        > li {
+          a {
+            padding: 6px 6px 6px 15px;
+            font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
+            font-size: 1em;
+            font-weight: 700;
+            line-height: 1.25em;
+            text-decoration: none;
+
+            &:hover {
+              background-color: #595b5d!important;
+            }
+
+            .sf-sub-indicator {
+              display: none;
+            }
+          }
+
+          &.level-3-menu {
+            a {
+              padding-left: 28px;
+              font-weight: 400 !important;
+              background: transparent url("../img/sidebar-bullet.gif") no-repeat scroll 16px 50%;
+            }
+          }
+        }
+
+        > a {
+          font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
+          font-size: 1em;
+          font-weight: 700;
+          line-height: 1.25em;
+          padding: 6px 6px 6px 15px;
+          text-decoration: none;
+        }
+      }
     }
 
     .sf-sub-indicator {
