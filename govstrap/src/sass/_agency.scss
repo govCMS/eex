@@ -2,19 +2,182 @@
 
 
 /**
- * Theme Name: EEX
- * Theme URI: http://www.eex.gov.au/
- * Description: EEX WordPress Theme
- * Version: 0.1
- * Author: Jason Conroy, Brent Shepherd
- * Author URI: http://findingsimple.com
- * Tags: hybrid-core, theme-options, microformats, translation-ready, rtl-language-support, one-column, two-columns, three-columns, fixed-width
+ * Migration of EEX Theme from Wordpress (govSpace)
+ * Original Authors of Wordpress Site: Jason Conroy, Brent Shepherd
+ * Original Author URI: http://findingsimple.com
  * License: GNU General Public License v2.0
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  *
- * Designed by Icelab (icelab.com.au) built by Finding Simple (findingsimple.com)
- *
+ * Originally Designed by Icelab (icelab.com.au) built by Finding Simple (findingsimple.com)
+ * Migrated to Drupal
  */
+
+input[type="text"] {
+  width: 300px;
+}
+input[type="submit"]:hover {
+  cursor: pointer
+}
+
+/* Links default */
+a {
+  outline:none;
+  color: #0e7ca4;
+  text-decoration:inherit;
+}
+a:hover {
+  color: #162226;
+  text-decoration: underline;
+}
+a:visited {
+  color: #488195;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.3em;
+}
+sub {
+  bottom: -0.25em;
+}
+
+.skip-top {
+  color: #b6d147;
+  font-family:'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
+  font-size:0.75em; /* 12px / 16px */
+  line-height:1em;
+  text-transform:uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: 400;
+  color: #006a8e;
+}
+
+div.region-header {
+  ul {
+    li {
+      a {
+        font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
+        font-size: 0.75em;
+        line-height: 1em;
+        margin-left: 27px;
+        padding: 0;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+header {
+  div#search {
+    form {
+      width:258px;/* 258px / 990px */
+      height: 38px;
+      background: transparent url(../img/bg-search.png) no-repeat scroll top left;
+      overflow:hidden;
+      padding: 0;
+      font-family:'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
+
+      input.form-text {
+          display:block;
+          width: 175px;
+          height: 31px;
+          float: left;
+          padding: 0;
+          margin:4px 0 0 5px;
+          text-indent: 10px;
+          font-weight: 400;
+          font-size: 0.75em;/*12/16*/
+          line-height:1.9375em;/*31/16*/
+          color: #666666;
+          border: 0px solid #fff;
+          background: #fff;
+      }
+
+      input[type="submit"] {
+        background: transparent none repeat scroll 0 0;
+        border: medium none;
+        color: #646668;
+        display: block;
+        float: left;
+        font-size: 0.75em;
+        font-weight: 700;
+        height: 31px;
+        letter-spacing: 0.1em;
+        line-height: 1.9375em;
+        margin: 4px 0 0 2px;
+        padding: 0;
+        text-align: center;
+        text-transform: uppercase;
+        width: 72px;
+      }
+    }
+  }
+}
+
+#footer {
+  border-top: 2px solid #bfc2c4;
+  padding-top: 22px;
+  font-size:0.9375em;/*15/16*/
+  line-height:1;
+  color: #666666;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: #666666;
+    text-decoration:underline;
+
+    &:hover {
+      color: #666666;
+      text-decoration: none;
+    }
+  }
+}
+
+#footer-menu {
+  div.content {
+    padding-left: 27px;
+  }
+
+  li {
+    margin-bottom: 0.8em;
+    margin-top: 0.8em;
+  }
+
+  a {
+    color: #313130;
+    font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
+    font-size: 0.9375em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 24px 27px 25px 0;
+  }
+
+  .print-friendly {
+    font-size:0.9375em;/*15/16*/
+    line-height:1;
+    font-weight: 400;
+    padding: 24px 27px 25px 27px;
+    background: transparent url(../img/print-friendly.png) no-repeat scroll left center;
+  }
+
+}
+
+
+/** Refactored above here */
+/** Not refactored below here */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -46,11 +209,6 @@ blockquote:before, blockquote:after, q:before, q:after {content: '';content: non
 table {border-collapse: collapse;border-spacing: 0;}
 mark{background-color:yellow;}
 
-/* Ipad and Iphone Top Shadow text input fix */
-/* input[type="text"], input[type="email"], input[type="search"], input[type="password"] {
-  -webkit-appearance: caret;
-  -moz-appearance: caret; /* mobile firefox too! */
-/* } */
 
 /* Galleries reset/default */
 .gallery{display:block;clear:both;overflow:hidden;margin:0 auto}.gallery .gallery-row{display:block;clear:both;overflow:hidden;margin:0}.gallery .gallery-item{overflow:hidden;float:left;margin:0;text-align:center;list-style:none;padding:0}.gallery .gallery-item .gallery-icon img{max-width:89%;height:auto;padding:1%;margin:0 auto}.gallery-caption{margin-left:0}.col-0{width:100%}.col-1{width:100%}.col-2{width:50%}.col-3{width:33.33%}.col-4{width:25%}.col-5{width:20%}.col-6{width:16.66%}.col-7{width:14.28%}.col-8{width:12.5%}.col-9{width:11.11%}.col-10{width:10%}.col-11{width:9.09%}.col-12{width:8.33%}.col-13{width:7.69%}.col-14{width:7.14%}.col-15{width:6.66%}.col-16{width:6.25%}.col-17{width:5.88%}.col-18{width:5.55%}.col-19{width:5.26%}.col-20{width:5%}.col-21{width:4.76%}.col-22{width:4.54%}.col-23{width:4.34%}.col-24{width:4.16%}.col-25{width:4%}.col-26{width:3.84%}.col-27{width:3.7%}.col-28{width:3.57%}.col-29{width:3.44%}.col-30{width:3.33%}
@@ -67,33 +225,6 @@ nav.menu li:hover li ul {top:-999em;z-index:500;}
 nav.menu li:hover ul li {z-index:999;}
 nav.menu li:hover ul li a {z-index:999;}
 
-/* Links default */
-a {
-  outline:none;
-  color: #0e7ca4;
-  text-decoration:inherit;
-}
-a:hover {
-  color: #162226;
-  text-decoration: underline;
-}
-a:visited {
-  color: #488195;
-}
-
-sub, sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-sup {
-  top: -0.3em;
-}
-sub {
-  bottom: -0.25em;
-}
-
 
 /* Body */
 body {
@@ -108,20 +239,6 @@ body {
 .wrapper {
   background: transparent url(../img/bg-glow.png) no-repeat scroll top center;
   padding: 30px 0;
-}
-
-.skip-top {
-  color: #b6d147;
-  font-family:'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
-  font-size:0.75em; /* 12px / 16px */
-  line-height:1em;
-  text-transform:uppercase;
-  padding: 0;
-  margin: 0;
-  position:absolute;
-  top: 0;
-  left: 0;
-  z-index:500;
 }
 
 /* Container */
@@ -335,113 +452,6 @@ body {
 #menu-primary li li:hover ul  {
 }
 
-/* Secondary menu */
-#menu-secondary {
-  display:block;
-  width: 50%;
-  padding: 0;
-}
-#menu-secondary div.wrap {
-  float: none;
-  width: 100%;
-}
-#menu-secondary nav.menu {
-  display:block;
-  position:absolute;
-  top: 0;
-  right: 0;
-  float: right;
-  width: auto;
-  height: 20px;
-  margin:0;
-  clear:none;
-}
-#menu-secondary li {
-  float: left;
-  text-align:left;
-  width: auto;
-  height: auto;
-}
-#menu-secondary li ul,
-#menu-secondary li li {
-  display:none; /* Disable dropdowns */
-}
-#menu-secondary li a {
-  padding: 0;
-  font-family:'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 0.75em; /* 12px / 16px */
-  line-height:1em;/*was 1*/
-  text-transform:uppercase;
-  margin-left:27px;
-}
-#menu-secondary li a:hover {
-  text-decoration: underline;
-}
-#menu-secondary li.current-menu-item a {
-  color: #000;
-}
-
-#menu-secondary ul li a:hover {
-  text-decoration: none;
-}
-
-/* Search form in the secondary menu */
-.menu-container div.search {
-  position:absolute;
-  top: 40px;
-  right: 0;
-  margin:0;
-  clear:none;
-  width:258px;/* 258px / 990px */
-  height: 38px;
-  background: transparent url(../img/bg-search.png) no-repeat scroll top left;
-  overflow:hidden;
-  padding: 0;
-  font-family:'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
-  z-index:1;
-}
-.menu-container .search-form input[type="text"],
-input.search-text {
-  display:block;
-  width: 175px;
-  height: 31px;
-  float: left;
-  padding: 0;
-  margin:4px 0 0 5px;
-  text-indent: 10px;
-  font-weight: 400;
-  font-size: 0.75em;/*12/16*/
-  line-height:1.9375em;/*31/16*/
-  color: #666666;
-  border: 0px solid #fff;
-  background: #fff;
-}
-.menu-container .search-form input[type="text"]:focus,
-input.search-text:focus {
-  color: #333;
-  background: #fff;
-  border: none;
-}
-.menu-container .search-form input[type="submit"] {
-  background: transparent;
-  border: none;
-  color:#646668;
-  font-size:0.75em;/*12/16*/
-  line-height:1.9375em;/*31/16*/
-  font-weight: 700;
-  text-transform:uppercase;
-  letter-spacing:.1em;
-  text-align:center;
-  display:block;
-  width: 72px;
-  height:31px;
-  margin:4px 0 0 2px;
-  float: left;
-  padding: 0;
-}
-.search-text-label {
-  display:none;
-}
 
 /* Main wrapper div for the content and primary/secondary sidebars */
 #main {
@@ -786,12 +796,6 @@ pre code {
 }
 
 /* Forms */
-input[type="text"] {
-  width: 300px;
-}
-input[type="submit"]:hover {
-  cursor: pointer
-}
 textarea {
   width: 98.5%;
 }
@@ -1664,42 +1668,9 @@ img.wp-smiley {
   text-decoration: underline;
 }
 
-.print-friendly {
-  position:absolute;
-  top: 0;
-  right: 0;
-  font-size:0.9375em;/*15/16*/
-  line-height:1;
-  font-weight: 400;
-  padding: 24px 27px 25px 27px;
-  background: transparent url(../img/print-friendly.png) no-repeat scroll left center;
-}
 
-/* Footer */
-#footer {
-  overflow: hidden;
-  clear: both;
-  width: 100%;
-  padding: 27px 0 22px 0;
-  font-size:0.9375em;/*15/16*/
-  line-height:1;
-  color: #666666;
-}
-#footer p {
-  margin: 0;
-}
-#footer a {
-  color: #666666;
-  text-decoration:underline;
-}
-#footer a:hover {
-  color: #666666;
-  text-decoration: none;
-}
-#footer .copyright {
-  float: left;
-  width: 100%;
-}
+
+
 
 
 /*Columns Shortcodes

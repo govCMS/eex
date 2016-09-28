@@ -114,6 +114,7 @@ function govstrap_preprocess_page(&$variables) {
 
     // Make search form available to page.tpl.php
     $search_box = drupal_get_form('search_block_form');
+    $search_box['search_block_form']['#attributes']['placeholder'] = t( 'Search this site...' );
     $variables['search_box'] = drupal_render($search_box);
 }
 

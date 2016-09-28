@@ -34,13 +34,13 @@
 
 </nav><!-- /#navigation -->
 
-<main>
-  <div id="main" class="main-container <?php print $container_class; ?>">
+<main class="container">
+  <div id="main" class="main-container row">
     <?php if (!empty($page['highlighted'])): ?>
       <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
     <?php endif; ?>
     <?php print $messages; ?>
-    <div id="content" class="row">
+    <div id="content">
       <?php if (!empty($page['sidebar_first'])): ?>
         <aside class="col-sm-3" role="complementary">
           <?php print render($page['sidebar_first']); ?>
@@ -72,16 +72,22 @@
           <?php print render($page['sidebar_second']); ?>
         </aside>  <!-- /#sidebar-second -->
       <?php endif; ?>
-
-      <?php if (!empty($page['footer_menu'])): ?>
-        <div id="footer-menu" class="col-md-12 <?php print $container_class; ?>">
-          <?php print render($page['footer_menu']); ?>
-          <div class="print-friendly">This site is print friendly</div>
-        </div>
-      <?php endif; ?>
     </div>
   </div>
 </main>
+
+<?php if (!empty($page['footer_menu'])): ?>
+    <div id="footer-menu" class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <?php print render($page['footer_menu']); ?>
+        </div>
+        <div class="col-md-3">
+          <div class="print-friendly">This site is print friendly</div>
+        </div>
+      </div>
+    </div>
+<?php endif; ?>
 
 <?php if (!empty($page['footer'])): ?>
   <footer id="footer" class="footer <?php print $container_class; ?>">
