@@ -353,7 +353,8 @@ main {
 
       .breadcrumb {
         background-color: transparent;
-
+        //Can probably replace this by adding col-md-9 to ol.breadcrumb or @extend it?
+        width: 75%;
         li {
           color: #000;
 
@@ -372,6 +373,8 @@ main {
         font-weight: 300;
         line-height: 1.2;
         margin: 0;
+        //Can probably replace this by adding col-md-9 to ol.breadcrumb or @extend it?
+        width: 75%;
 
         &.page-header {
           border: none;
@@ -389,9 +392,6 @@ main {
 
     aside.right-bar {
       padding-right: 25px;
-      //TODO: Fix this
-      margin-top: -186px;
-
       font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
 
       div#block-menu-block-1 {
@@ -424,6 +424,17 @@ main {
             &:hover {
               background-color: #595b5d;
               border-radius: 0;
+            }
+
+            &.active {
+              background: #e8fd94 none repeat scroll 0 0 !important;
+              color: #000 !important;
+              outline: 1px solid #aac734;
+
+              a {
+                color: #000;
+                background-color: transparent;
+              }
             }
 
             a {
