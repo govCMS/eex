@@ -9,8 +9,18 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  *
  * Originally Designed by Icelab (icelab.com.au) built by Finding Simple (findingsimple.com)
- * Migrated to Drupal
+ * Migrated to Drupal by Department of Finance (OSB)
  */
+
+body {
+  padding: 0;
+  color: #646668;
+  background: #f4f4f4;
+  //Could not find out why this was been overridden so added important???
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif !important;
+  line-height:1.375em;
+  -webkit-text-size-adjust:100%;
+}
 
 input[type="text"] {
   width: 300px;
@@ -212,6 +222,7 @@ nav#navigation {
             text-decoration: none;
             margin-top: -2px;
             border-radius: 0px;
+            background-color: transparent;
           }
         }
       }
@@ -308,47 +319,40 @@ nav#navigation {
       border-top: 5px solid #818384;
     }
   }
+}
 
-  /*
-  #menu-primary li.current_page_ancestor.arrow > a {
-    color: #0e7ca4;
-    border-top:2px solid #0e7ca4;
-    background-position: right top;
+main {
+  .col-no-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .highlighted {
+      margin-bottom: 0;
+      border-radius: 0 !important;
+    }
+
+    .jumbotron {
+      padding: 0 0 0 0;
+    }
+
+    .block {
+      margin: 0;
+    }
   }
 
-  #menu-primary li.arrow > a {
+  #content {
+    float: left;
+    width: 100%;
+    padding-left:25px;
     padding-right: 25px;
-    background:transparent url(../img/arrows-sprite.png) no-repeat scroll right -75px;
   }
+}
 
-  #menu-primary li.arrow > a:hover  {
-    background-position: right -150px;
-  }
-
-  #menu-primary li.current-menu-item.arrow > a {
-    background-position: right top;
-  }
-  #menu-primary li.current-menu-item.arrow > a:hover {
-    background-position: right -85px;
-  }
-
-  #menu-primary li.arrow:hover {
-    padding-top: 10px;
-    padding-left: 10px;
-    margin-left: -10px;
-    border-top:2px solid #bfc2c4;
-    color: #fff;
-  }
-
-  #menu-primary li.arrow:hover > a {
-    background: #646668 url(../img/arrows-sprite.png) no-repeat scroll right -85px;
-    padding-top: 17px;
-    padding-right: 25px;
-    padding-left: 10px;
-    margin-left: -10px;
-    border-top:0;
-    color: #fff;
-  }*/
+#main {
+  clear: both;
+  padding:0;
+  background:#fff;
+  border: 3px solid #efefef;
 }
 
 
@@ -403,14 +407,6 @@ nav.menu li:hover ul li a {z-index:999;}
 
 
 /* Body */
-body {
-  padding: 0;
-  color: #646668;
-  background: #fff url(../img/bg.png) repeat scroll top left;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  line-height:1.375em;
-  -webkit-text-size-adjust:100%;
-}
 
 .wrapper {
   background: transparent url(../img/bg-glow.png) no-repeat scroll top center;
@@ -531,16 +527,7 @@ body {
 
 
 /* Main wrapper div for the content and primary/secondary sidebars */
-#main {
-  clear: both;
-  width: 100%;
-  padding:0;
-  background:#fff;
-  border: 3px solid #efefef;
-  overflow:hidden;
-  position:relative;
-  margin-left:-3px;
-}
+
 
 #banner-primary {
   width: 100%;
@@ -1318,11 +1305,7 @@ img.wp-smiley {
 }
 
 /* Content Layouts. */
-#content {
-  float: left;
-  width: 70.707071%;
-  margin-left:25px;
-}
+
 
 .page-template-full-width #content {
   float: none;

@@ -35,10 +35,14 @@
 </nav><!-- /#navigation -->
 
 <main class="container">
+  <?php if (!empty($page['highlighted'])): ?>
+      <div class="row">
+        <div class="col-md-12 col-no-padding">
+          <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
+        </div>
+      </div>
+  <?php endif; ?>
   <div id="main" class="main-container row">
-    <?php if (!empty($page['highlighted'])): ?>
-      <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
-    <?php endif; ?>
     <?php print $messages; ?>
     <div id="content">
       <?php if (!empty($page['sidebar_first'])): ?>
