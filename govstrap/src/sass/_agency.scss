@@ -394,10 +394,12 @@ main {
       padding-right: 25px;
       font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
 
-      div#block-menu-block-1 {
+      div.region-sidebar-second {
         background: #666 none repeat scroll 0 0;
         margin: 0 0 -2px 0;
         padding: 27px 0 17px;
+      }
+      div#block-menu-block-1 {
         color: white;
         a {
           color: white;

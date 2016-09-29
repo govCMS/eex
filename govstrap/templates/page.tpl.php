@@ -78,8 +78,12 @@
       </section>
       <?php if (!empty($page['sidebar_second']) || !empty($page['sidebar_second_below'])): ?>
         <aside class="col-sm-3 right-bar" role="complementary">
-          <?php print render($page['sidebar_second']); ?>
-          <?php print render($page['sidebar_second_below']); ?>
+          <?php if (!empty($page['sidebar_second'])): ?>
+            <?php print render($page['sidebar_second']); ?>
+          <?php endif; ?>
+          <?php if (!empty($page['sidebar_second_below'])): ?>
+            <?php print render($page['sidebar_second_below']); ?>
+          <?php endif; ?>
         </aside>  <!-- /#sidebar-second -->
       <?php endif; ?>
     </div>
