@@ -173,6 +173,10 @@ header {
     font-weight: 700;
     line-height: 1;
     padding: 24px 27px 25px 0;
+
+    &:hover {
+      color: #60605e !important;
+    }
   }
 
   .print-friendly {
@@ -352,6 +356,38 @@ main {
       clear: none;
 
       .breadcrumb {
+
+        margin: 0 0 22px 0;
+        font-size: 0.875em; /* 14px / 16px */
+        line-height:1.571428571428571em;/* 22/14 */
+
+        a:hover {
+          text-decoration: underline;
+          color: #3d3d3d;
+        }
+        .trail-begin a {
+          display:inline-block;
+          width: 20px;
+          height: 16px;
+          background: transparent url(../img/breadcrumb-home-sprite.png) no-repeat scroll top left;
+          text-indent:-9999px;
+        }
+        .trail-begin a:hover {
+          background: transparent url(../img/breadcrumb-home-sprite.png) no-repeat scroll bottom left;
+        }
+        li {
+          display: inline-block;
+        }
+        li + li:before {
+          content: "/\00a0";
+          padding: 0 5px;
+          color: #000;
+        }
+        .active {
+          color: #000;
+        }
+
+
         background-color: transparent;
         //Can probably replace this by adding col-md-9 to ol.breadcrumb or @extend it?
         width: 75%;
@@ -717,62 +753,6 @@ nav.menu li:hover ul li a {z-index:999;}
   padding:0.3em;
   line-height:1.1em;
 }
-
-/* Breadcrumb trail */
-.breadcrumbs {
-  display:block;
-  width: 70.707071%;
-  margin: 0 0 22px 0;
-  font-size: 0.875em; /* 14px / 16px */
-  line-height:1.571428571428571em;/* 22/14 */
-  color: #fff;
-  position:relative;
-}
-.search .breadcrumbs  {
-  margin: 0;
-}
-.breadcrumbs a {
-  color: #fff;
-}
-.breadcrumbs a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-.breadcrumbs .trail-begin a {
-  display:inline-block;
-  width: 20px;
-  height: 16px;
-  background: transparent url(../img/breadcrumb-home-sprite.png) no-repeat scroll top left;
-  text-indent:-9999px;
-}
-.ie7 .breadcrumbs .trail-begin a {
-  display:block;
-  float: left;
-  margin-top: 2px;
-}
-.breadcrumbs .trail-begin a:hover {
-  background: transparent url(../img/breadcrumb-home-sprite.png) no-repeat scroll bottom left;
-}
-.breadcrumb {
-  list-style: none;
-}
-.breadcrumb > li {
-  display: inline-block;
-}
-.breadcrumb > li + li:before {
-  content: "/\00a0";
-  padding: 0 5px;
-  color: #d5e39a;
-}
-.breadcrumb > .active {
-  color: #000;
-}
-
-
-
-
-
-
 
 
 

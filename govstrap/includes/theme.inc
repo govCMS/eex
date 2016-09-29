@@ -26,15 +26,21 @@ function govstrap_breadcrumb($variables) {
       }
     }
     elseif ($page_type == 'search') {
-      $breadcrumb = array('<a href="/">Home</a>', 'Search');
+      $breadcrumb = array('<a href="/" title="eex.gov.au Energy Efficiency Exchange" rel="home" itemprop="url"><span itemprop="title">Home</span></a>', 'Search');
     }
     else {
       $breadcrumb[] = drupal_get_title();
     }
 
     $breadcrumbs = '<ol class="breadcrumb">';
+    $i = 0;
     foreach ($breadcrumb as $key => $value) {
-      $breadcrumbs .= '<li>' . $value . '</li>';
+      if($i == 0) {
+          $breadcrumbs .= '<li class="trail-begin">' . '<a href="/" title="eex.gov.au Energy Efficiency Exchange" rel="home" itemprop="url"><span itemprop="title">Home</span></a>' . '</li>';
+      } else {
+          $breadcrumbs .= '<li>' . $value . '</li>';
+      }
+      $i++;
     }
     $breadcrumbs .= '</ol>';
 
