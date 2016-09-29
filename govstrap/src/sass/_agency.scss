@@ -532,6 +532,12 @@ main {
   border: 3px solid #efefef;
 }
 
+/* Keyboard Focus Style */
+a:focus, a:active {
+  background: #e8fd94 none repeat scroll 0 0 !important;
+  color: #000 !important;
+  outline: 1px solid #aac734;
+}
 
 /** Refactored above here */
 /** Not refactored below here */
@@ -3508,12 +3514,7 @@ table.dataTable th:active {
   }
 }
 
-/* Keyboard Focus Style */
-a:focus, a:active {
-  outline: 1px solid yellow;
-  background: #fffccc !important;
-  color: #666666 !important;
-}
+
 
 
 /* The End */
