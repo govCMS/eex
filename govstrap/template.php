@@ -80,7 +80,10 @@ function govstrap_menu_tree__menu_top_menu($variables) {
     return '<ul class="list-inline small-links">' . $variables['tree'] . '</ul>';
 }
 
+/*
+ * Note: we add the fancy bottom part of the menu in javascript, see scripts.js
+ */
 function govstrap_menu_tree__menu_block__1($variables) {
-    return '<ul class="nav nav-pills nav-stacked">' . $variables['tree'] . '</ul><div class="sidebar-corner"></div>';
+    return '<ul class="nav nav-pills nav-stacked">' . $variables['tree'] . '</ul>';
 }
 

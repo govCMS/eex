@@ -23,6 +23,8 @@
     if(titleHeight > 1) {
         titleHeight = titleHeight + 70;
         jQuery('#block-menu-block-1').css('margin-top', '-' + titleHeight + 'px');
+
+        jQuery('.region-sidebar-second').after('<div class="sidebar-corner"></div>');
     }
 
 }}}(jQuery,Drupal);

@@ -396,7 +396,7 @@ main {
 
       div#block-menu-block-1 {
         background: #666 none repeat scroll 0 0;
-        margin: 0 0 25px 0;
+        margin: 0 0 -2px 0;
         padding: 27px 0 17px;
         color: white;
         a {
@@ -450,13 +450,12 @@ main {
             }
           }
         }
+      }
 
-        //This bit isn't showing (hidden behind the rest?)
-        .sidebar-corner {
-          height: 10px;
-          margin: 0 0 25px 0;
-          background: transparent url(../img/sidebar-corner-trans.png) no-repeat scroll bottom right;
-        }
+      .sidebar-corner {
+        height: 10px;
+        margin: 0 0 25px 0;
+        background: transparent url(../img/sidebar-corner-trans.png) no-repeat scroll bottom left;
       }
 
       #block-bean-right-sidebar-content {
