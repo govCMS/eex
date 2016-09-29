@@ -343,8 +343,137 @@ main {
   #content {
     float: left;
     width: 100%;
-    padding-left:25px;
-    padding-right: 25px;
+
+    .title-block {
+      background:#a8c434;
+      margin: 0;
+      padding: 25px;
+      margin-bottom:20px;
+      clear: none;
+
+      .breadcrumb {
+        background-color: transparent;
+
+        li {
+          color: #000;
+
+          a {
+            color: #000;
+          }
+        }
+      }
+
+      h1 {
+        color: #000;
+        text-decoration: underline;
+        outline: medium none;
+        font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
+        font-size: 2.875em;
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 0;
+
+        &.page-header {
+          border: none;
+        }
+
+        &:hover {
+          color: #3d3d3d;
+        }
+      }
+    }
+
+    section.content-section {
+      padding-left:25px;
+    }
+
+    aside.right-bar {
+      padding-right: 25px;
+      //TODO: Fix this
+      margin-top: -186px;
+
+      font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
+
+      div#block-menu-block-1 {
+        background: #666 none repeat scroll 0 0;
+        margin: 0 0 25px 0;
+        padding: 27px 0 17px;
+        color: white;
+        a {
+          color: white;
+        }
+
+        h2 {
+          margin-bottom: 9px;
+          padding: 0 22px;
+          font-size: 0.75em;
+          line-height: 2.16667em;
+          text-transform: uppercase;
+          a {
+            text-decoration: none;
+          }
+        }
+
+        ul {
+          margin: 0 0 0 0;
+
+          li {
+            padding-right: 0px;
+            border-radius: 0;
+
+            &:hover {
+              background-color: #595b5d;
+              border-radius: 0;
+            }
+
+            a {
+              font-weight: 400;
+              padding: 15px 22px;
+              font-size: 16px;
+
+              &:hover {
+                background-color: transparent;
+                border-radius: 0;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+
+        //This bit isn't showing (hidden behind the rest?)
+        .sidebar-corner {
+          height: 10px;
+          margin: 0 0 25px 0;
+          background: transparent url(../img/sidebar-corner-trans.png) no-repeat scroll bottom right;
+        }
+      }
+
+      #block-bean-right-sidebar-content {
+        margin-bottom:20px;
+
+        ul {
+          list-style:none;
+          padding: 0;
+          margin:0;
+
+          li {
+            display:block;
+            margin-bottom: 0.8em;
+
+            &.print a { background: transparent url(../img/sidebar-print.png) no-repeat scroll left center; }
+            &.feedback a { background: transparent url(../img/sidebar-feedback.png) no-repeat scroll left center; }
+            &.subscribe a { background: transparent url(../img/sidebar-subscribe.png) no-repeat scroll left center;}
+
+            a {
+              padding: 9px 0 9px 36px;
+              display:block;
+              font-size:0.875em; /*14/16*/
+              line-height:0.8571428571428571em;/*12/14*/
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -575,14 +704,6 @@ nav.menu li:hover ul li a {z-index:999;}
   width: 14em;
   padding:0.3em;
   line-height:1.1em;
-}
-
-.title-block {
-  background:#a8c434;
-  margin: 0;
-  padding: 25px;
-  margin-bottom:20px;
-  clear: none;
 }
 
 /* Breadcrumb trail */
@@ -1332,11 +1453,6 @@ img.wp-smiley {
   margin: 0;
 }
 
-#sidebar-primary .sidebar-corner {
-  height: 10px;
-  margin: 0 0 25px 0;
-  background: transparent url(../img/sidebar-corner-trans.png) no-repeat scroll bottom right;
-}
 
 #sidebar-primary .widget {
   padding-top: 27px;
@@ -1445,32 +1561,6 @@ img.wp-smiley {
   width: 100%;
   margin-left: 0;
 }
-
-#sidebar-links {
-  margin-bottom:20px;
-}
-
-#sidebar-links ul {
-  display:block;
-  list-style:none;
-  padding: 0;
-  margin:0;
-}
-
-#sidebar-links ul li {
-  display:block;
-}
-
-#sidebar-links ul li a {
-  padding: 9px 0 9px 36px;
-  display:block;
-  font-size:0.875em; /*14/16*/
-  line-height:0.8571428571428571em;/*12/14*/
-}
-
-#sidebar-links ul li.print a { background: transparent url(../img/sidebar-print.png) no-repeat scroll left center; }
-#sidebar-links ul li.feedback a { background: transparent url(../img/sidebar-feedback.png) no-repeat scroll left center; }
-#sidebar-links ul li.subscribe a { background: transparent url(../img/sidebar-subscribe.png) no-repeat scroll left center;}
 
 #sidebar-last-modified {
   font-family:'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
