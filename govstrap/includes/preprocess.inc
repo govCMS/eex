@@ -102,10 +102,10 @@ function govstrap_preprocess_page(&$variables) {
   $variables['container_class'] = 'container';
 
   // Calculate container columns with sidebar.
-  if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
+  if (!empty($variables['page']['sidebar_first']) && (!empty($variables['page']['sidebar_second']) || !empty($variables['page']['sidebar_second_below']))) {
     $variables['content_column_class'] = 'col-sm-6';
   }
-  elseif (!empty($variables['page']['sidebar_first']) || !empty($variables['page']['sidebar_second'])) {
+  elseif (!empty($variables['page']['sidebar_first']) || (!empty($variables['page']['sidebar_second']) || !empty($variables['page']['sidebar_second_below']))) {
     $variables['content_column_class'] = 'col-sm-9';
   }
   else {
