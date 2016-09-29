@@ -76,9 +76,10 @@
           <?php print render($page['content']); ?>
         </div>
       </section>
-      <?php if (!empty($page['sidebar_second'])): ?>
+      <?php if (!empty($page['sidebar_second']) || !empty($page['sidebar_second_below'])): ?>
         <aside class="col-sm-3 right-bar" role="complementary">
           <?php print render($page['sidebar_second']); ?>
+          <?php print render($page['sidebar_second_below']); ?>
         </aside>  <!-- /#sidebar-second -->
       <?php endif; ?>
     </div>
