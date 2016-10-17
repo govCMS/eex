@@ -17,7 +17,6 @@
 })(jQuery, Drupal);
 
 function moveSidebarMenu() {
-    console.log("Move Sidebar");
     var titleHeight = jQuery('div.title-block').height();
     //768px wide and it moves to 'mobile' version bootstrap
     if (titleHeight > 1) {
