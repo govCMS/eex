@@ -1,5 +1,5 @@
 
-<div class="container page-template-home-1" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
+<div class="page-template-home-1" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
   <?php if ($content['top']): ?>
     <div class="row">
       <!-- Placeholder for hero image start -->
