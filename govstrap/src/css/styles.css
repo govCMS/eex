@@ -74,7 +74,7 @@ a {
 }
 
 div.region-header ul li a {
-  font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
+  font-family: "PT Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em;
   line-height: 1em;
   margin-left: 27px;
@@ -155,7 +155,7 @@ header div#search form input[type="submit"] {
 }
 #footer-menu a {
   color: #313130;
-  font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
+  font-family: "PT Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.9375em;
   font-weight: 700;
   line-height: 1;
@@ -245,7 +245,7 @@ nav#navigation ul#superfish-1 > li ul {
 }
 nav#navigation ul#superfish-1 > li ul > li a {
   padding: 6px 6px 6px 15px;
-  font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
+  font-family: "PT Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
   font-size: 1em;
   font-weight: 700;
   line-height: 1.25em;
@@ -263,7 +263,7 @@ nav#navigation ul#superfish-1 > li ul > li.level-3-menu a {
   background: transparent url("../img/sidebar-bullet.gif") no-repeat scroll 16px 50%;
 }
 nav#navigation ul#superfish-1 > li ul > a {
-  font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
+  font-family: "PT Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
   font-size: 1em;
   font-weight: 700;
   line-height: 1.25em;
@@ -352,7 +352,7 @@ main #content .title-block h1 {
   color: #000;
   text-decoration: underline;
   outline: medium none;
-  font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
+  font-family: "PT Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
   font-size: 2.875em;
   font-weight: 300;
   line-height: 1.2;
@@ -368,9 +368,17 @@ main #content .title-block h1:hover {
 main #content section.content-section {
   padding-left: 25px;
 }
+main #content section.content-section #page-content {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: none;
+  font-size: 0.875em;
+  line-height: 1.642857142857143em;
+}
 main #content aside.right-bar {
   padding-right: 25px;
-  font-family: "PT Sans","Trebuchet MS","Helvetica Neue",Arial,sans-serif;
+  font-family: "PT Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
 }
 main #content aside.right-bar div.region-sidebar-second {
   background: #666 none repeat scroll 0 0;
@@ -759,7 +767,7 @@ nav.menu li:hover ul li a {
   z-index: 0;
 }
 
-/* Begin Main Styles 
+/* Begin Main Styles
 ------------------------------------------------------------*/
 /* Header */
 #header {
@@ -2002,7 +2010,7 @@ img.wp-smiley {
   top: 12px;
   left: 0;
   border: none;
-  font-family: 'PT Sans',Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
   font-size: 0.85714em;
   text-transform: uppercase;
   font-weight: 700;
