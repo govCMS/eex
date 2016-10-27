@@ -361,6 +361,7 @@ main #content .title-block h1 {
 }
 main #content .title-block h1.page-header {
   border: none;
+  text-decoration: none;
 }
 main #content .title-block h1:hover {
   color: #3d3d3d;
