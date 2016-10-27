@@ -4178,6 +4178,32 @@ table.dataTable th:active {
 /*******************
   Front Page Style
 *******************/
+body.front .page-template-home-1 .browse-home {
+  background: #006a8e;
+  border-bottom: 1px solid #006a8e;
+  position: relative;
+  z-index: 99;
+}
+body.front .page-template-home-1 .browse-home h3 {
+  font-size: 1.071428571428571em;
+  padding: 0 9px 20px 18px;
+  border-bottom: 1px solid #006a8e;
+}
+body.front .page-template-home-1 .browse-home a {
+  display: block;
+  color: #fff;
+  padding: 5px 9px 5px 42px;
+  font-family: 'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.7em;
+  line-height: 2.090909090909091em;
+  border-top: 1px solid #48c4ef;
+  border-bottom: 1px solid #00a7e1;
+  background: transparent url(../img/chevron.png) no-repeat scroll 0.86364em 1em;
+}
+body.front .page-template-home-1 .browse-home a:hover {
+  background: #038fbf url(../img/chevron.png) no-repeat scroll 19px 50%;
+  text-decoration: underline;
+}
 body.front .pane-title {
   font-size: 1.3em;
   font-family: 'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
