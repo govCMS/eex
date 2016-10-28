@@ -112,10 +112,10 @@ function govstrap_preprocess_page(&$variables) {
     $variables['content_column_class'] = 'col-sm-12';
   }
 
-    // Make search form available to page.tpl.php
-    $search_box = drupal_get_form('search_block_form');
-    $search_box['search_block_form']['#attributes']['placeholder'] = t( 'Search this site...' );
-    $variables['search_box'] = drupal_render($search_box);
+  // Make search form available to page.tpl.php
+  $search_box = drupal_get_form('search_block_form');
+  $search_box['search_block_form']['#attributes']['placeholder'] = t('Search this site...');
+  $variables['search_box'] = drupal_render($search_box);
 }
 
 /**
@@ -128,4 +128,15 @@ function govstrap_preprocess_block(&$variables, $hook) {
   }
 
   $variables['title_attributes_array']['class'][] = 'block-title';
+}
+
+/**
+ * Preprocess the paragraphs items.
+ *
+ * @param $variables
+ * @param $hook
+ */
+function govstrap_preprocess_paragraphs_items(&$variables, $hook) {
+  $variables['items'] = $variables['element']['#items'];
+  $variables['node'] = $variables['element']['#object'];
 }
