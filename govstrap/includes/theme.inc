@@ -19,14 +19,20 @@ function govstrap_breadcrumb($variables) {
         $node = node_load(arg(1));
         switch ($node->type) {
           case 'webform':
-            $breadcrumb[] = 'Form';
-            $breadcrumb[] = $node->field_title['und'][0]['value'];
+            if (isset($node->field_title)) {
+              $breadcrumb[] = 'Form';
+              $breadcrumb[] = $node->field_title['und'][0]['value'];
+            }
+
             break;
         }
       }
     }
     elseif ($page_type == 'search') {
-      $breadcrumb = array('<a href="/" title="eex.gov.au Energy Efficiency Exchange" rel="home" itemprop="url"><span itemprop="title">Home</span></a>', 'Search');
+      $breadcrumb = array(
+        '<a href="/" title="eex.gov.au Energy Efficiency Exchange" rel="home" itemprop="url"><span itemprop="title">Home</span></a>',
+        'Search',
+      );
     }
     else {
       $breadcrumb[] = drupal_get_title();
@@ -35,10 +41,11 @@ function govstrap_breadcrumb($variables) {
     $breadcrumbs = '<ol class="breadcrumb">';
     $i = 0;
     foreach ($breadcrumb as $key => $value) {
-      if($i == 0) {
-          $breadcrumbs .= '<li class="trail-begin">' . '<a href="/" title="eex.gov.au Energy Efficiency Exchange" rel="home" itemprop="url"><span itemprop="title">Home</span></a>' . '</li>';
-      } else {
-          $breadcrumbs .= '<li>' . $value . '</li>';
+      if ($i == 0) {
+        $breadcrumbs .= '<li class="trail-begin">' . '<a href="/" title="eex.gov.au Energy Efficiency Exchange" rel="home" itemprop="url"><span itemprop="title">Home</span></a>' . '</li>';
+      }
+      else {
+        $breadcrumbs .= '<li>' . $value . '</li>';
       }
       $i++;
     }
