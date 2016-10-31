@@ -95,7 +95,7 @@ function govstrap_preprocess_html(&$variables, $hook) {
  *
  * @param $variables
  *
- * @see page.tpl.php
+ * @see page.tpl.php and search_api_page_search_form()
  */
 function govstrap_preprocess_page(&$variables) {
   // Set page container columns.
@@ -112,9 +112,11 @@ function govstrap_preprocess_page(&$variables) {
     $variables['content_column_class'] = 'col-sm-12';
   }
 
-  // Make search form available to page.tpl.php
-  $search_box = drupal_get_form('search_block_form');
-  $search_box['search_block_form']['#attributes']['placeholder'] = t('Search this site...');
+  // Make search API page form available to page.tpl.php
+  $page = search_api_page_load(6);
+  $search_box = drupal_get_form('search_api_page_search_form_search', $page, NULL, TRUE);
+  $search_box['keys_6']['#attributes']['placeholder'] = t('Search this site...');
+  $search_box['#attributes']['class'][] = 'container-inline';
   $variables['search_box'] = drupal_render($search_box);
 }
 
