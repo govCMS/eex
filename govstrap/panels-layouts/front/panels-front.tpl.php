@@ -1,24 +1,5 @@
 
 <div class="page-template-home-1" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
-  <!-- Placeholder for hero image start -->
-  <div class="row">
-      <div id="banner-primary" class="banner">
-        <div class="wrap"
-             style="background-image: url(https://eex.govspace.gov.au/files/2016/05/EEX-HOMEPAGE-MAY-2016-2-990x311.jpg);
-             cursor: pointer;
-             -webkit-background-size: cover;
-              -moz-background-size: cover;
-              -o-background-size: cover;
-              background-size: cover;">
-          <div id="feature-title">
-            <h3>
-              <a href="https://eex.govspace.gov.au/2016/10/new-eextra-october-2016/" title="NEW: eeXtra – October 2016">NEW: eeXtra – October 2016</a>
-            </h3>The latest round-up of energy-efficiency projects and innovations from Australia and around the world.
-          </div><!-- end #feature-title --><div class="banner_alt"></div>
-        </div>
-      </div>
-    </div>
-  <!-- Placeholder for hero image finish-->
   <?php if ($content['top']): ?>
     <div class="row">
       <div class="inside"><?php print $content['top']; ?></div>
