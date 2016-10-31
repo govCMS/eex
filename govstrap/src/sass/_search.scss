@@ -1,0 +1,35 @@
+/*******************
+  Search Page Style
+*******************/
+
+body.page-search {
+  aside {
+    &.right-bar {
+      div {
+        &.block-facetapi {
+          h2.block-title {
+            color: #fff;
+            font-weight: 400;
+            text-transform: none;
+            font-size: 1em;
+            line-height: 2.16667em;
+            position: relative;
+          }
+          ul {
+            li {
+              a {
+                color: #c8e35a;
+                padding: 2px 0px 2px 21px;
+                font-weight: 400;
+                text-decoration: none;
+                display: block;
+                overflow: hidden;
+                background: transparent url(../img/filter-plus-tick-sprite.png) no-repeat scroll 2px 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
