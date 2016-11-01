@@ -2939,9 +2939,10 @@ img.wp-smiley {
   padding: 12px 0 0 0;
   margin: 0;
   font-weight: 400;
+  font-size: 1.5em;
 }
 
-/* line 2595, ../src/sass/_agency.scss */
+/* line 2596, ../src/sass/_agency.scss */
 .link-list.columns-1 ul {
   display: block;
   width: 100%;
@@ -2949,13 +2950,13 @@ img.wp-smiley {
   padding: 0;
 }
 
-/* line 2602, ../src/sass/_agency.scss */
+/* line 2603, ../src/sass/_agency.scss */
 .link-list.columns-1 ul li {
   display: block;
   width: 100%;
 }
 
-/* line 2607, ../src/sass/_agency.scss */
+/* line 2608, ../src/sass/_agency.scss */
 .link-list.columns-1 li a {
   display: block;
   height: 2em;
@@ -2965,12 +2966,12 @@ img.wp-smiley {
   background-position: center left;
 }
 
-/* line 2616, ../src/sass/_agency.scss */
+/* line 2617, ../src/sass/_agency.scss */
 .link-list.columns-2 {
   margin-bottom: 15px;
 }
 
-/* line 2620, ../src/sass/_agency.scss */
+/* line 2621, ../src/sass/_agency.scss */
 .link-list.columns-2 h3.link-list-title {
   color: #666666;
   font-family: 'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
@@ -2983,7 +2984,7 @@ img.wp-smiley {
   margin: 0;
 }
 
-/* line 2630, ../src/sass/_agency.scss */
+/* line 2631, ../src/sass/_agency.scss */
 .link-list.columns-2 ul {
   display: block;
   clear: both;
@@ -2992,14 +2993,14 @@ img.wp-smiley {
   padding: 0;
 }
 
-/* line 2638, ../src/sass/_agency.scss */
+/* line 2639, ../src/sass/_agency.scss */
 .link-list.columns-2 ul li {
   display: block;
   width: 50%;
   float: left;
 }
 
-/* line 2644, ../src/sass/_agency.scss */
+/* line 2645, ../src/sass/_agency.scss */
 .link-list.columns-2 li a {
   display: block;
   font-family: 'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
@@ -3011,17 +3012,17 @@ img.wp-smiley {
   background-position: center left;
 }
 
-/* line 2654, ../src/sass/_agency.scss */
+/* line 2655, ../src/sass/_agency.scss */
 .link-list.float-left {
   float: left;
 }
 
-/* line 2658, ../src/sass/_agency.scss */
+/* line 2659, ../src/sass/_agency.scss */
 .link-list.float-right {
   float: right;
 }
 
-/* line 2662, ../src/sass/_agency.scss */
+/* line 2663, ../src/sass/_agency.scss */
 #filter-details {
   padding-bottom: 5px;
   position: relative;
@@ -3031,17 +3032,17 @@ img.wp-smiley {
   padding-right: 125px;
 }
 
-/* line 2670, ../src/sass/_agency.scss */
+/* line 2671, ../src/sass/_agency.scss */
 .archive-eex_contact #filter-details {
   border-bottom: 3px solid #edecec;
 }
 
-/* line 2674, ../src/sass/_agency.scss */
+/* line 2675, ../src/sass/_agency.scss */
 #filter-details .filter {
   margin-left: 10px;
 }
 
-/* line 2678, ../src/sass/_agency.scss */
+/* line 2679, ../src/sass/_agency.scss */
 #filter-details .filter a {
   color: #646668;
   display: inline-block;
@@ -3053,7 +3054,7 @@ img.wp-smiley {
   margin-bottom: 10px;
 }
 
-/* line 2689, ../src/sass/_agency.scss */
+/* line 2690, ../src/sass/_agency.scss */
 #filter-details .reset-filter {
   display: inline-block;
   padding: 10px 33px 10px 10px;
@@ -3064,7 +3065,7 @@ img.wp-smiley {
   background: transparent url(../img/filter-cross-sprite.png) no-repeat scroll 90% 13px;
 }
 
-/* line 2699, ../src/sass/_agency.scss */
+/* line 2700, ../src/sass/_agency.scss */
 #sidebar-primary #eex-events-filters h3.widget-title,
 #sidebar-primary #eex-glossary-search h3.widget-title,
 #sidebar-primary #eex-contact-search h3.widget-title {
@@ -3072,7 +3073,7 @@ img.wp-smiley {
   font-weight: 700;
 }
 
-/* line 2706, ../src/sass/_agency.scss */
+/* line 2707, ../src/sass/_agency.scss */
 #sidebar-primary #eex-events-filters h4.widget-title,
 #sidebar-primary #eex-glossary-search h4.widget-title,
 #sidebar-primary #eex-contact-search h4.widget-title {
@@ -3083,7 +3084,7 @@ img.wp-smiley {
   /*16/16*/
 }
 
-/* line 2715, ../src/sass/_agency.scss */
+/* line 2716, ../src/sass/_agency.scss */
 #sidebar-primary #eex-events-filters a,
 #sidebar-primary #eex-glossary-search a,
 #sidebar-primary #eex-contact-search a {
@@ -3096,7 +3097,7 @@ img.wp-smiley {
   background: transparent url(../img/filter-plus-tick-sprite.png) no-repeat scroll 2px 8px;
 }
 
-/* line 2727, ../src/sass/_agency.scss */
+/* line 2728, ../src/sass/_agency.scss */
 #sidebar-primary #eex-events-filters a:hover,
 #sidebar-primary #eex-glossary-search a:hover,
 #sidebar-primary #eex-contact-search a:hover {
@@ -3105,7 +3106,7 @@ img.wp-smiley {
   background: transparent url(../img/filter-plus-tick-sprite.png) no-repeat scroll 2px -42px; */
 }
 
-/* line 2735, ../src/sass/_agency.scss */
+/* line 2736, ../src/sass/_agency.scss */
 #sidebar-primary #eex-events-filters .selected a,
 #sidebar-primary #eex-glossary-search .selected a,
 #sidebar-primary #eex-contact-search .selected a {
@@ -3113,7 +3114,7 @@ img.wp-smiley {
   background: transparent url(../img/filter-plus-tick-sprite.png) no-repeat scroll 2px -142px;
 }
 
-/* line 2742, ../src/sass/_agency.scss */
+/* line 2743, ../src/sass/_agency.scss */
 #sidebar-primary #eex-events-filters .selected a:hover,
 #sidebar-primary #eex-glossary-search .selected a:hover,
 #sidebar-primary #eex-contact-search .selected a:hover {
@@ -3121,7 +3122,7 @@ img.wp-smiley {
   background: transparent url(../img/filter-plus-tick-sprite.png) no-repeat scroll 2px -192px;
 }
 
-/* line 2749, ../src/sass/_agency.scss */
+/* line 2750, ../src/sass/_agency.scss */
 #sidebar-primary #eex-events-filters a span,
 #sidebar-primary #eex-glossary-search a span,
 #sidebar-primary #eex-contact-search a span {
@@ -3132,7 +3133,7 @@ img.wp-smiley {
   /*14/16*/
 }
 
-/* line 2758, ../src/sass/_agency.scss */
+/* line 2759, ../src/sass/_agency.scss */
 #sidebar-primary #eex-events-filters .filter,
 #sidebar-primary #eex-glossary-search .filter,
 #sidebar-primary #eex-contact-search .filter {
@@ -3141,7 +3142,7 @@ img.wp-smiley {
   padding-bottom: 22px;
 }
 
-/* line 2766, ../src/sass/_agency.scss */
+/* line 2767, ../src/sass/_agency.scss */
 h2.event-group-heading {
   border-top: 3px solid #edecec;
   padding: 22px 0;
@@ -3152,32 +3153,32 @@ h2.event-group-heading {
   line-height: 1;
 }
 
-/* line 2775, ../src/sass/_agency.scss */
+/* line 2776, ../src/sass/_agency.scss */
 .opportunities-list {
   border: 1px solid #e5ecef;
   list-style: none;
   margin: 14px 0;
 }
 
-/* line 2781, ../src/sass/_agency.scss */
+/* line 2782, ../src/sass/_agency.scss */
 .opportunities-list li {
   padding: 14px;
   border-bottom: 1px solid #f1f5f7;
 }
 
-/* line 2786, ../src/sass/_agency.scss */
+/* line 2787, ../src/sass/_agency.scss */
 .opportunities-list li:last-child {
   border-bottom: none;
 }
 
-/* line 2790, ../src/sass/_agency.scss */
+/* line 2791, ../src/sass/_agency.scss */
 .wordpress .opportunities-list li h3 {
   font-size: 1.071428571428571em;
   /*15/14*/
   margin-bottom: 0;
 }
 
-/* line 2795, ../src/sass/_agency.scss */
+/* line 2796, ../src/sass/_agency.scss */
 .opportunities-list li ul {
   list-style: none;
   font-size: 0.6875em;
@@ -3191,7 +3192,7 @@ h2.event-group-heading {
   padding: 0;
 }
 
-/* line 2806, ../src/sass/_agency.scss */
+/* line 2807, ../src/sass/_agency.scss */
 .opportunities-list li li {
   padding: 0px;
   border: none;
@@ -3200,7 +3201,7 @@ h2.event-group-heading {
   padding: 0;
 }
 
-/* line 2814, ../src/sass/_agency.scss */
+/* line 2815, ../src/sass/_agency.scss */
 .opportunities-list li li span {
   border: 1px solid #e7eef1;
   border-radius: 5px;
@@ -3211,7 +3212,7 @@ h2.event-group-heading {
   height: 40px;
 }
 
-/* line 2824, ../src/sass/_agency.scss */
+/* line 2825, ../src/sass/_agency.scss */
 .opportunities-list li li.cost span,
 .opportunities-list li li.cost span.display-1 {
   position: absolute;
@@ -3220,17 +3221,17 @@ h2.event-group-heading {
   background: transparent url(../img/opportunities-sprite.gif) no-repeat scroll top left;
 }
 
-/* line 2832, ../src/sass/_agency.scss */
+/* line 2833, ../src/sass/_agency.scss */
 .opportunities-list li li.cost span.display-2 {
   background: transparent url(../img/opportunities-sprite.gif) no-repeat scroll left -40px;
 }
 
-/* line 2836, ../src/sass/_agency.scss */
+/* line 2837, ../src/sass/_agency.scss */
 .opportunities-list li li.cost span.display-3 {
   background: transparent url(../img/opportunities-sprite.gif) no-repeat scroll left -80px;
 }
 
-/* line 2840, ../src/sass/_agency.scss */
+/* line 2841, ../src/sass/_agency.scss */
 .opportunities-list li li.savings span,
 .opportunities-list li li.savings span.display-1 {
   position: absolute;
@@ -3240,17 +3241,17 @@ h2.event-group-heading {
   background: transparent url(../img/opportunities-sprite.gif) no-repeat scroll -73px 0px;
 }
 
-/* line 2849, ../src/sass/_agency.scss */
+/* line 2850, ../src/sass/_agency.scss */
 .opportunities-list li li.savings span.display-2 {
   background: transparent url(../img/opportunities-sprite.gif) no-repeat scroll -73px -40px;
 }
 
-/* line 2853, ../src/sass/_agency.scss */
+/* line 2854, ../src/sass/_agency.scss */
 .opportunities-list li li.savings span.display-3 {
   background: transparent url(../img/opportunities-sprite.gif) no-repeat scroll -73px -80px;
 }
 
-/* line 2857, ../src/sass/_agency.scss */
+/* line 2858, ../src/sass/_agency.scss */
 .opportunities-list li li.payback span,
 .opportunities-list li li.payback span.display-1 {
   position: absolute;
@@ -3260,31 +3261,31 @@ h2.event-group-heading {
   background: transparent url(../img/opportunities-sprite.gif) no-repeat scroll -151px 0px;
 }
 
-/* line 2866, ../src/sass/_agency.scss */
+/* line 2867, ../src/sass/_agency.scss */
 .opportunities-list li li.payback span.display-2 {
   background: transparent url(../img/opportunities-sprite.gif) no-repeat scroll -151px -40px;
 }
 
-/* line 2870, ../src/sass/_agency.scss */
+/* line 2871, ../src/sass/_agency.scss */
 .opportunities-list li li.payback span.display-3 {
   background: transparent url(../img/opportunities-sprite.gif) no-repeat scroll -151px -80px;
 }
 
-/* line 2874, ../src/sass/_agency.scss */
+/* line 2875, ../src/sass/_agency.scss */
 .opportunities-list-link,
 .case-studies-list-link {
   margin-bottom: 22px;
   display: block;
 }
 
-/* line 2880, ../src/sass/_agency.scss */
+/* line 2881, ../src/sass/_agency.scss */
 .opportunities-list-link img,
 .case-studies-list-link img {
   vertical-align: middle;
   margin-left: 6px;
 }
 
-/* line 2886, ../src/sass/_agency.scss */
+/* line 2887, ../src/sass/_agency.scss */
 .case-study-link {
   display: block;
   border-top: 1px solid #edf2f4;
@@ -3295,13 +3296,13 @@ h2.event-group-heading {
   background: transparent url(../img/case-study-icon.gif) no-repeat scroll 0 10px;
 }
 
-/* line 2896, ../src/sass/_agency.scss */
+/* line 2897, ../src/sass/_agency.scss */
 .highlight .case-study-link,
 .highlight-anchor .case-study-link {
   background: transparent url(../img/case-study-icon-blue.gif) no-repeat scroll 0 10px;
 }
 
-/* line 2901, ../src/sass/_agency.scss */
+/* line 2902, ../src/sass/_agency.scss */
 .highlight .case-study,
 .highlight-anchor .case-study {
   background: transparent url(../img/case-study-icon-blue.gif) no-repeat scroll 0 10px;
@@ -3309,7 +3310,7 @@ h2.event-group-heading {
   border-bottom: 1px solid #B6E0F0;
 }
 
-/* line 2908, ../src/sass/_agency.scss */
+/* line 2909, ../src/sass/_agency.scss */
 .case-study .case-study-year,
 .case-studies-list {
   display: block;
@@ -3319,36 +3320,36 @@ h2.event-group-heading {
   list-style: none;
 }
 
-/* line 2917, ../src/sass/_agency.scss */
+/* line 2918, ../src/sass/_agency.scss */
 .case-studies-list li {
   padding: 8px 0 8px 50px;
   background: transparent url(../img/case-study-icon.gif) no-repeat scroll 0 10px;
 }
 
-/* line 2922, ../src/sass/_agency.scss */
+/* line 2923, ../src/sass/_agency.scss */
 .highlight .case-studies-list li,
 .highlight-anchor .case-studies-list li {
   background: transparent url(../img/case-study-icon-blue.gif) no-repeat scroll 0 10px;
 }
 
-/* line 2927, ../src/sass/_agency.scss */
+/* line 2928, ../src/sass/_agency.scss */
 .case-studies-list ul {
   list-style: disc;
 }
 
-/* line 2931, ../src/sass/_agency.scss */
+/* line 2932, ../src/sass/_agency.scss */
 .wordpress .case-studies-list li h3 {
   font-size: 1em;
   /*16/16*/
   margin-bottom: 0;
 }
 
-/* line 2936, ../src/sass/_agency.scss */
+/* line 2937, ../src/sass/_agency.scss */
 .case-studies-list-external .case-study-year {
   padding-left: 5px;
 }
 
-/* line 2940, ../src/sass/_agency.scss */
+/* line 2941, ../src/sass/_agency.scss */
 .case-study-external {
   font-weight: 400;
   font-style: italic;
@@ -3359,7 +3360,7 @@ h2.event-group-heading {
   line-height: 1;
 }
 
-/* line 2949, ../src/sass/_agency.scss */
+/* line 2950, ../src/sass/_agency.scss */
 .case-studies-list-external {
   list-style: none;
   display: block;
@@ -3368,20 +3369,20 @@ h2.event-group-heading {
   margin-left: 0;
 }
 
-/* line 2957, ../src/sass/_agency.scss */
+/* line 2958, ../src/sass/_agency.scss */
 .case-studies-list-external > li {
   padding: 12px 19px 13px 45px;
   line-height: 1;
   background: transparent url(../img/case-study-icon.gif) no-repeat scroll 0 10px;
 }
 
-/* line 2963, ../src/sass/_agency.scss */
+/* line 2964, ../src/sass/_agency.scss */
 .highlight .case-studies-list-external > li,
 .highlight-anchor .case-studies-list-external > li {
   background: transparent url(../img/case-study-icon-blue.gif) no-repeat scroll 0 10px;
 }
 
-/* line 2968, ../src/sass/_agency.scss */
+/* line 2969, ../src/sass/_agency.scss */
 .case-study-link div,
 .case-studies-list-external li div {
   padding: 0px 0 0 0;
@@ -3391,20 +3392,20 @@ h2.event-group-heading {
   font-weight: 400;
 }
 
-/* line 2976, ../src/sass/_agency.scss */
+/* line 2977, ../src/sass/_agency.scss */
 .case-study-link a,
 .case-studies-list-external a {
   font-weight: 400;
   line-height: 1.4;
 }
 
-/* line 2982, ../src/sass/_agency.scss */
+/* line 2983, ../src/sass/_agency.scss */
 .case-study-title {
   display: block;
   margin-bottom: 5px;
 }
 
-/* line 2987, ../src/sass/_agency.scss */
+/* line 2988, ../src/sass/_agency.scss */
 .case-study-file-list {
   list-style: none;
   padding: 0 0 10px 0;
@@ -3413,7 +3414,7 @@ h2.event-group-heading {
   /*12/14*/
 }
 
-/* line 2994, ../src/sass/_agency.scss */
+/* line 2995, ../src/sass/_agency.scss */
 .case-study-file-list li {
   display: inline;
   padding: 0 20px 0 0;
@@ -3421,32 +3422,32 @@ h2.event-group-heading {
   margin-right: 5px;
 }
 
-/* line 3001, ../src/sass/_agency.scss */
+/* line 3002, ../src/sass/_agency.scss */
 .case-study-file-list > li.external {
   background: transparent url(../img/file-icon.png) no-repeat scroll center right;
 }
 
-/* line 3005, ../src/sass/_agency.scss */
+/* line 3006, ../src/sass/_agency.scss */
 .highlight .case-study-file-list > li.external,
 .highlight-anchor .case-study-file-list > li.external {
   background: transparent url(../img/file-icon-blue.png) no-repeat scroll center right;
 }
 
-/* line 3010, ../src/sass/_agency.scss */
+/* line 3011, ../src/sass/_agency.scss */
 .case-study-file-list li.resource-source {
   padding: 0 10px 0 0;
   background: none;
   margin: 0;
 }
 
-/* line 3020, ../src/sass/_agency.scss */
+/* line 3021, ../src/sass/_agency.scss */
 .case-study-full {
   display: block;
   padding: 19px 19px 10px 50px;
   background: transparent url(../img/case-study-icon.gif) no-repeat scroll 0 20px;
 }
 
-/* line 3026, ../src/sass/_agency.scss */
+/* line 3027, ../src/sass/_agency.scss */
 .case-study-full.highlight-anchor,
 .highlight .case-study-full {
   background: #e3f1f6 url(../img/case-study-icon-blue.gif) no-repeat scroll 0 20px;
@@ -3454,7 +3455,7 @@ h2.event-group-heading {
   margin-bottom: 22px;
 }
 
-/* line 3033, ../src/sass/_agency.scss */
+/* line 3034, ../src/sass/_agency.scss */
 a.btn-add-event {
   display: block;
   background: #99bd04 url(../img/btn-add-event.gif) no-repeat scroll center left;
@@ -3469,7 +3470,7 @@ a.btn-add-event {
   -moz-border-radius: 3px;
 }
 
-/* line 3046, ../src/sass/_agency.scss */
+/* line 3047, ../src/sass/_agency.scss */
 .sub-page-list {
   display: block;
   clear: both;
@@ -3477,7 +3478,7 @@ a.btn-add-event {
   margin: 0;
 }
 
-/* line 3053, ../src/sass/_agency.scss */
+/* line 3054, ../src/sass/_agency.scss */
 .sub-page-list li {
   display: block;
   clear: both;
@@ -3485,26 +3486,26 @@ a.btn-add-event {
   padding: 3px;
 }
 
-/* line 3060, ../src/sass/_agency.scss */
+/* line 3061, ../src/sass/_agency.scss */
 .sub-page-list li:hover {
   background: #e7f4f9;
 }
 
-/* line 3064, ../src/sass/_agency.scss */
+/* line 3065, ../src/sass/_agency.scss */
 .sub-page-list li h3 {
   margin: 0;
   font-size: 1.285714285714286em;
   /*18/14*/
 }
 
-/* line 3069, ../src/sass/_agency.scss */
+/* line 3070, ../src/sass/_agency.scss */
 #content .search {
   width: 100%;
   height: 35px;
   overflow: hidden;
 }
 
-/* line 3075, ../src/sass/_agency.scss */
+/* line 3076, ../src/sass/_agency.scss */
 #content .search div {
   width: 100%;
   height: 35px;
@@ -3514,7 +3515,7 @@ a.btn-add-event {
   position: relative;
 }
 
-/* line 3084, ../src/sass/_agency.scss */
+/* line 3085, ../src/sass/_agency.scss */
 #content .search div input[type="text"] {
   display: block;
   width: 85%;
@@ -3532,13 +3533,13 @@ a.btn-add-event {
   border: 0px solid #fff;
 }
 
-/* line 3099, ../src/sass/_agency.scss */
+/* line 3100, ../src/sass/_agency.scss */
 #content .search div input[type="text"]:focus {
   color: #333;
   background: #fefefe;
 }
 
-/* line 3104, ../src/sass/_agency.scss */
+/* line 3105, ../src/sass/_agency.scss */
 #content .search div input[type="submit"] {
   border: none;
   color: #646668;
@@ -3561,7 +3562,7 @@ a.btn-add-event {
   right: 0;
 }
 
-/* line 3124, ../src/sass/_agency.scss */
+/* line 3125, ../src/sass/_agency.scss */
 .search-meta.top {
   clear: both;
   font-size: 0.875em;
@@ -3572,7 +3573,7 @@ a.btn-add-event {
   margin: 0;
 }
 
-/* line 3133, ../src/sass/_agency.scss */
+/* line 3134, ../src/sass/_agency.scss */
 .search-meta.top .dym {
   width: 50%;
   float: left;
@@ -3580,7 +3581,7 @@ a.btn-add-event {
   color: #787878;
 }
 
-/* line 3140, ../src/sass/_agency.scss */
+/* line 3141, ../src/sass/_agency.scss */
 .top .search-results-count {
   width: 50%;
   float: right;
@@ -3588,7 +3589,7 @@ a.btn-add-event {
   color: #666666;
 }
 
-/* line 3147, ../src/sass/_agency.scss */
+/* line 3148, ../src/sass/_agency.scss */
 .search-meta.bottom {
   clear: both;
   font-size: 0.875em;
@@ -3598,7 +3599,7 @@ a.btn-add-event {
   border-top: 3px solid #edecec;
 }
 
-/* line 3155, ../src/sass/_agency.scss */
+/* line 3156, ../src/sass/_agency.scss */
 .bottom .search-results-count {
   width: 40%;
   float: right;
@@ -3607,29 +3608,29 @@ a.btn-add-event {
 }
 
 /* TOC */
-/* line 3164, ../src/sass/_agency.scss */
+/* line 3165, ../src/sass/_agency.scss */
 #toc_container ul, #toc_container li {
   margin: 0;
   padding: 0;
 }
 
-/* line 3169, ../src/sass/_agency.scss */
+/* line 3170, ../src/sass/_agency.scss */
 #toc_container.no_bullets ul, #toc_container.no_bullets li {
   background: none;
   list-style-type: none;
 }
 
-/* line 3174, ../src/sass/_agency.scss */
+/* line 3175, ../src/sass/_agency.scss */
 #toc_container.have_bullets li {
   padding-left: 12px;
 }
 
-/* line 3178, ../src/sass/_agency.scss */
+/* line 3179, ../src/sass/_agency.scss */
 #toc_container ul ul {
   margin-left: 1.5em;
 }
 
-/* line 3182, ../src/sass/_agency.scss */
+/* line 3183, ../src/sass/_agency.scss */
 #toc_container {
   background: #f9f9f9;
   border: 1px solid #aaa;
@@ -3639,27 +3640,27 @@ a.btn-add-event {
   font-size: 95%;
 }
 
-/* line 3191, ../src/sass/_agency.scss */
+/* line 3192, ../src/sass/_agency.scss */
 #toc_container.toc_light_blue {
   background: #edf6ff;
 }
 
-/* line 3195, ../src/sass/_agency.scss */
+/* line 3196, ../src/sass/_agency.scss */
 #toc_container.toc_white {
   background: #fff;
 }
 
-/* line 3199, ../src/sass/_agency.scss */
+/* line 3200, ../src/sass/_agency.scss */
 #toc_container.toc_black {
   background: #000;
 }
 
-/* line 3203, ../src/sass/_agency.scss */
+/* line 3204, ../src/sass/_agency.scss */
 #toc_container.toc_transparent {
   background: none transparent;
 }
 
-/* line 3207, ../src/sass/_agency.scss */
+/* line 3208, ../src/sass/_agency.scss */
 #toc_container p.toc_title {
   text-align: center;
   font-weight: 700;
@@ -3667,52 +3668,52 @@ a.btn-add-event {
   padding: 0;
 }
 
-/* line 3214, ../src/sass/_agency.scss */
+/* line 3215, ../src/sass/_agency.scss */
 #toc_container.toc_black p.toc_title {
   color: #aaa;
 }
 
-/* line 3218, ../src/sass/_agency.scss */
+/* line 3219, ../src/sass/_agency.scss */
 #toc_container span.toc_toggle {
   font-weight: 400;
   font-size: 90%;
 }
 
-/* line 3223, ../src/sass/_agency.scss */
+/* line 3224, ../src/sass/_agency.scss */
 #toc_container p.toc_title + ul.toc_list {
   margin-top: 1em;
 }
 
-/* line 3227, ../src/sass/_agency.scss */
+/* line 3228, ../src/sass/_agency.scss */
 .toc_wrap_left {
   float: left;
   margin-right: 10px;
 }
 
-/* line 3232, ../src/sass/_agency.scss */
+/* line 3233, ../src/sass/_agency.scss */
 .toc_wrap_right {
   float: right;
   margin-left: 10px;
 }
 
-/* line 3237, ../src/sass/_agency.scss */
+/* line 3238, ../src/sass/_agency.scss */
 #toc_container a {
   text-decoration: none;
 }
 
-/* line 3241, ../src/sass/_agency.scss */
+/* line 3242, ../src/sass/_agency.scss */
 #toc_container a:hover {
   text-decoration: underline;
 }
 
-/* line 3245, ../src/sass/_agency.scss */
+/* line 3246, ../src/sass/_agency.scss */
 .opportunity-full {
   display: block;
   padding: 19px 19px 10px 57px;
   background: transparent url(../img/opp-icon.png) no-repeat scroll 15px 15px;
 }
 
-/* line 3251, ../src/sass/_agency.scss */
+/* line 3252, ../src/sass/_agency.scss */
 .opportunity-full.highlight-anchor {
   /*background:#e7f4f9; */
   background: #e3f1f6 url(../img/opp-icon-blue.png) no-repeat scroll 15px 15px;
@@ -3724,12 +3725,12 @@ a.btn-add-event {
   margin-bottom: 22px;
 }
 
-/* line 3263, ../src/sass/_agency.scss */
+/* line 3264, ../src/sass/_agency.scss */
 .program-full {
   padding: 6px 12px;
 }
 
-/* line 3267, ../src/sass/_agency.scss */
+/* line 3268, ../src/sass/_agency.scss */
 .program-full.highlight-anchor {
   background: #e3f1f6;
   border: 1px solid #b6e0f0;
@@ -3739,7 +3740,7 @@ a.btn-add-event {
   margin-bottom: 6px;
 }
 
-/* line 3276, ../src/sass/_agency.scss */
+/* line 3277, ../src/sass/_agency.scss */
 .footnotes {
   border-top: 1px solid #d3e0e5;
   padding-top: 10px;
@@ -3747,12 +3748,12 @@ a.btn-add-event {
   clear: both;
 }
 
-/* line 3283, ../src/sass/_agency.scss */
+/* line 3284, ../src/sass/_agency.scss */
 .footnotes a.footnotetoggle {
   color: #646668;
 }
 
-/* line 3287, ../src/sass/_agency.scss */
+/* line 3288, ../src/sass/_agency.scss */
 .footnotes .footnoteshow {
   /*	font-family:'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
       text-transform:uppercase;
@@ -3760,7 +3761,7 @@ a.btn-add-event {
       line-height:1; */
 }
 
-/* line 3294, ../src/sass/_agency.scss */
+/* line 3295, ../src/sass/_agency.scss */
 .footnotes p a {
   font-family: 'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
   text-transform: uppercase;
@@ -3771,24 +3772,24 @@ a.btn-add-event {
   text-transform: uppercase;
 }
 
-/* line 3303, ../src/sass/_agency.scss */
+/* line 3304, ../src/sass/_agency.scss */
 .footnotereverse a {
   text-decoration: none;
 }
 
-/* line 3307, ../src/sass/_agency.scss */
+/* line 3308, ../src/sass/_agency.scss */
 .footnotes p {
   margin: 0;
   padding: 0;
 }
 
-/* line 3312, ../src/sass/_agency.scss */
+/* line 3313, ../src/sass/_agency.scss */
 .footnotes ol {
   list-style: decimal;
   margin-left: 20px;
 }
 
-/* line 3317, ../src/sass/_agency.scss */
+/* line 3318, ../src/sass/_agency.scss */
 .wordpress #sidebar-primary a.btn-help {
   display: block;
   width: 18px;
@@ -3801,12 +3802,12 @@ a.btn-add-event {
   padding: 0 !important;
 }
 
-/* line 3329, ../src/sass/_agency.scss */
+/* line 3330, ../src/sass/_agency.scss */
 #eex-events-filters {
   position: relative;
 }
 
-/* line 3333, ../src/sass/_agency.scss */
+/* line 3334, ../src/sass/_agency.scss */
 .wordpress #sidebar-primary #eex-events-filters a.btn-help,
 .wordpress #sidebar-primary #eex-glossary-search a.btn-help,
 .wordpress #sidebar-primary #eex-contact-search a.btn-help {
@@ -3814,7 +3815,7 @@ a.btn-add-event {
   right: 8px;
 }
 
-/* line 3340, ../src/sass/_agency.scss */
+/* line 3341, ../src/sass/_agency.scss */
 .filter-help {
   padding-top: 5px;
   background: transparent url(../img/bg-help.png) no-repeat scroll top right;
@@ -3825,7 +3826,7 @@ a.btn-add-event {
   color: #54575a;
 }
 
-/* line 3348, ../src/sass/_agency.scss */
+/* line 3349, ../src/sass/_agency.scss */
 .filter-help span {
   display: block;
   background: #fcfcb2;
@@ -3836,7 +3837,7 @@ a.btn-add-event {
   position: relative;
 }
 
-/* line 3358, ../src/sass/_agency.scss */
+/* line 3359, ../src/sass/_agency.scss */
 .wordpress #sidebar-primary a.btn-help-close {
   display: block;
   width: 10px;
@@ -3849,12 +3850,12 @@ a.btn-add-event {
   padding: 0 !important;
 }
 
-/* line 3370, ../src/sass/_agency.scss */
+/* line 3371, ../src/sass/_agency.scss */
 .wordpress div#toc_container {
   background: #fbfdfd;
 }
 
-/* line 3374, ../src/sass/_agency.scss */
+/* line 3375, ../src/sass/_agency.scss */
 .wordpress #toc_container p.toc_title {
   position: relative;
   text-align: left;
@@ -3865,20 +3866,20 @@ a.btn-add-event {
   text-transform: uppercase;
 }
 
-/* line 3383, ../src/sass/_agency.scss */
+/* line 3384, ../src/sass/_agency.scss */
 .wordpress #toc_container span.toc_toggle {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 3389, ../src/sass/_agency.scss */
+/* line 3390, ../src/sass/_agency.scss */
 .icon-heading img {
   vertical-align: middle;
   margin-left: 12px;
 }
 
-/* line 3394, ../src/sass/_agency.scss */
+/* line 3395, ../src/sass/_agency.scss */
 .contact-event-img {
   float: right;
   margin-left: 20px;
@@ -3890,31 +3891,31 @@ a.btn-add-event {
 	width: 440px;
 }
 */
-/* line 3406, ../src/sass/_agency.scss */
+/* line 3407, ../src/sass/_agency.scss */
 #opportunity-table-filters ul {
   margin: 0;
   list-style: none;
 }
 
-/* line 3411, ../src/sass/_agency.scss */
+/* line 3412, ../src/sass/_agency.scss */
 #opportunity-table-filters li {
   margin: 0;
 }
 
-/* line 3415, ../src/sass/_agency.scss */
+/* line 3416, ../src/sass/_agency.scss */
 #opportunity-table-filters input {
   margin-right: 8px;
 }
 
 /* Datatables
 -------------------------------------------------------------- */
-/* line 3422, ../src/sass/_agency.scss */
+/* line 3423, ../src/sass/_agency.scss */
 #opportunities_length,
 #opportunities_filter {
   padding-bottom: 1em;
 }
 
-/* line 3427, ../src/sass/_agency.scss */
+/* line 3428, ../src/sass/_agency.scss */
 #opportunities_filter input {
   width: 300px;
   margin-left: 1em;
@@ -3923,7 +3924,7 @@ a.btn-add-event {
 /*
  * Table
  */
-/* line 3435, ../src/sass/_agency.scss */
+/* line 3436, ../src/sass/_agency.scss */
 table.dataTable {
   width: 100%;
   margin: 0 auto;
@@ -3933,12 +3934,12 @@ table.dataTable {
   margin-bottom: 1em;
 }
 
-/* line 3444, ../src/sass/_agency.scss */
+/* line 3445, ../src/sass/_agency.scss */
 table.dataTable th {
   padding: 4px;
 }
 
-/* line 3448, ../src/sass/_agency.scss */
+/* line 3449, ../src/sass/_agency.scss */
 table.dataTable,
 table.dataTable th,
 table.dataTable td {
@@ -3947,53 +3948,53 @@ table.dataTable td {
   box-sizing: content-box;
 }
 
-/* line 3456, ../src/sass/_agency.scss */
+/* line 3457, ../src/sass/_agency.scss */
 table.dataTable td.center,
 table.dataTable td.dataTables_empty {
   text-align: center;
 }
 
-/* line 3461, ../src/sass/_agency.scss */
+/* line 3462, ../src/sass/_agency.scss */
 table.dataTable tr.odd {
   background-color: #f3f7fb;
 }
 
-/* line 3465, ../src/sass/_agency.scss */
+/* line 3466, ../src/sass/_agency.scss */
 table.dataTable tr.even {
   background-color: #e4f0fd;
 }
 
-/* line 3469, ../src/sass/_agency.scss */
+/* line 3470, ../src/sass/_agency.scss */
 table.dataTable tr.odd td.sorting_1 {
   background-color: #d8e5f2;
 }
 
-/* line 3473, ../src/sass/_agency.scss */
+/* line 3474, ../src/sass/_agency.scss */
 table.dataTable tr.odd td.sorting_2 {
   background-color: #c8daec;
 }
 
-/* line 3477, ../src/sass/_agency.scss */
+/* line 3478, ../src/sass/_agency.scss */
 table.dataTable tr.odd td.sorting_3 {
   background-color: #f3f7fb;
 }
 
-/* line 3481, ../src/sass/_agency.scss */
+/* line 3482, ../src/sass/_agency.scss */
 table.dataTable tr.even td.sorting_1 {
   background-color: #bbd9f9;
 }
 
-/* line 3485, ../src/sass/_agency.scss */
+/* line 3486, ../src/sass/_agency.scss */
 table.dataTable tr.even td.sorting_2 {
   background-color: #b2d4f9;
 }
 
-/* line 3489, ../src/sass/_agency.scss */
+/* line 3490, ../src/sass/_agency.scss */
 table.dataTable tr.even td.sorting_3 {
   background-color: #e4f0fd;
 }
 
-/* line 3493, ../src/sass/_agency.scss */
+/* line 3494, ../src/sass/_agency.scss */
 .dataTables_paginate .paginate_disabled_previous,
 .dataTables_paginate .paginate_disabled_next {
   visibility: hidden;
@@ -4002,14 +4003,14 @@ table.dataTable tr.even td.sorting_3 {
 /*
  * Table wrapper
  */
-/* line 3501, ../src/sass/_agency.scss */
+/* line 3502, ../src/sass/_agency.scss */
 .dataTables_wrapper {
   position: relative;
   clear: both;
   *zoom: 1;
 }
 
-/* line 3507, ../src/sass/_agency.scss */
+/* line 3508, ../src/sass/_agency.scss */
 .dataTables_wrapper:after {
   visibility: hidden;
   display: block;
@@ -4021,7 +4022,7 @@ table.dataTable tr.even td.sorting_3 {
 /*
  * Page length menu
  */
-/* line 3518, ../src/sass/_agency.scss */
+/* line 3519, ../src/sass/_agency.scss */
 .dataTables_length {
   float: left;
 }
@@ -4029,7 +4030,7 @@ table.dataTable tr.even td.sorting_3 {
 /*
  * Filter
  */
-/* line 3525, ../src/sass/_agency.scss */
+/* line 3526, ../src/sass/_agency.scss */
 .dataTables_filter {
   float: right;
   text-align: right;
@@ -4038,20 +4039,20 @@ table.dataTable tr.even td.sorting_3 {
 /*
  * Table information
  */
-/* line 3533, ../src/sass/_agency.scss */
+/* line 3534, ../src/sass/_agency.scss */
 .dataTables_info {
   clear: both;
   float: left;
 }
 
-/* line 3538, ../src/sass/_agency.scss */
+/* line 3539, ../src/sass/_agency.scss */
 .dataTables_wrapper .dataTables_paginate {
   float: right;
   text-align: right;
   padding-top: 0.25em;
 }
 
-/* line 3544, ../src/sass/_agency.scss */
+/* line 3545, ../src/sass/_agency.scss */
 .dataTables_wrapper .dataTables_paginate .paginate_button {
   box-sizing: border-box;
   display: inline-block;
@@ -4066,7 +4067,7 @@ table.dataTable tr.even td.sorting_3 {
   border: 1px solid transparent;
 }
 
-/* line 3558, ../src/sass/_agency.scss */
+/* line 3559, ../src/sass/_agency.scss */
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
   color: #333333 !important;
   border: 1px solid #cacaca;
@@ -4085,7 +4086,7 @@ table.dataTable tr.even td.sorting_3 {
   /* W3C */
 }
 
-/* line 3576, ../src/sass/_agency.scss */
+/* line 3577, ../src/sass/_agency.scss */
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
   cursor: default;
   color: #666 !important;
@@ -4094,7 +4095,7 @@ table.dataTable tr.even td.sorting_3 {
   box-shadow: none;
 }
 
-/* line 3584, ../src/sass/_agency.scss */
+/* line 3585, ../src/sass/_agency.scss */
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
   color: white !important;
   border: 1px solid #111111;
@@ -4113,7 +4114,7 @@ table.dataTable tr.even td.sorting_3 {
   /* W3C */
 }
 
-/* line 3602, ../src/sass/_agency.scss */
+/* line 3603, ../src/sass/_agency.scss */
 .dataTables_wrapper .dataTables_paginate .paginate_button:active {
   outline: none;
   background-color: #2b2b2b;
@@ -4135,7 +4136,7 @@ table.dataTable tr.even td.sorting_3 {
 /*
  * Processing indicator
  */
-/* line 3623, ../src/sass/_agency.scss */
+/* line 3624, ../src/sass/_agency.scss */
 .dataTables_processing {
   position: absolute;
   top: 50%;
@@ -4155,42 +4156,42 @@ table.dataTable tr.even td.sorting_3 {
 /*
  * Sorting
  */
-/* line 3642, ../src/sass/_agency.scss */
+/* line 3643, ../src/sass/_agency.scss */
 .sorting {
   background-image: url("../img/sort_both.png");
   background-position: center right;
   background-repeat: no-repeat;
 }
 
-/* line 3648, ../src/sass/_agency.scss */
+/* line 3649, ../src/sass/_agency.scss */
 .sorting_asc {
   background-image: url("../img/sort_asc.png");
   background-position: center right;
   background-repeat: no-repeat;
 }
 
-/* line 3654, ../src/sass/_agency.scss */
+/* line 3655, ../src/sass/_agency.scss */
 .sorting_desc {
   background-image: url("../img/sort_desc.png");
   background-position: center right;
   background-repeat: no-repeat;
 }
 
-/* line 3660, ../src/sass/_agency.scss */
+/* line 3661, ../src/sass/_agency.scss */
 .sorting_asc_disabled {
   background-image: url("../img/sort_asc_disabled.png");
   background-position: center right;
   background-repeat: no-repeat;
 }
 
-/* line 3666, ../src/sass/_agency.scss */
+/* line 3667, ../src/sass/_agency.scss */
 .sorting_desc_disabled {
   background-image: url("../img/sort_desc_disabled.png");
   background-position: center right;
   background-repeat: no-repeat;
 }
 
-/* line 3672, ../src/sass/_agency.scss */
+/* line 3673, ../src/sass/_agency.scss */
 table.dataTable thead .sorting_asc,
 table.dataTable thead .sorting_desc,
 table.dataTable thead .sorting {
@@ -4198,7 +4199,7 @@ table.dataTable thead .sorting {
   *cursor: hand;
 }
 
-/* line 3679, ../src/sass/_agency.scss */
+/* line 3680, ../src/sass/_agency.scss */
 table.dataTable th:active {
   outline: none;
 }
@@ -4206,19 +4207,19 @@ table.dataTable th:active {
 /*
  * Scrolling
  */
-/* line 3686, ../src/sass/_agency.scss */
+/* line 3687, ../src/sass/_agency.scss */
 .dataTables_scroll {
   clear: both;
 }
 
-/* line 3690, ../src/sass/_agency.scss */
+/* line 3691, ../src/sass/_agency.scss */
 .dataTables_scrollBody {
   *margin-top: -1px;
   -webkit-overflow-scrolling: touch;
 }
 
 @media only screen and (max-width: 930px) {
-  /* line 3697, ../src/sass/_agency.scss */
+  /* line 3698, ../src/sass/_agency.scss */
   #site-title a {
     width: 340px;
     height: 90px;
@@ -4226,12 +4227,12 @@ table.dataTable th:active {
     background: transparent url(../img/logo-trans-stacked.png) no-repeat scroll top left;
   }
 
-  /* line 3704, ../src/sass/_agency.scss */
+  /* line 3705, ../src/sass/_agency.scss */
   #site-title a img {
     display: none;
   }
 
-  /* line 3708, ../src/sass/_agency.scss */
+  /* line 3709, ../src/sass/_agency.scss */
   .link-list.columns-1 {
     display: block;
     width: 100%;
@@ -4239,7 +4240,7 @@ table.dataTable th:active {
     clear: both;
   }
 
-  /* line 3714, ../src/sass/_agency.scss */
+  /* line 3715, ../src/sass/_agency.scss */
   .link-list.columns-2 ul li {
     display: block;
     width: 100%;
@@ -4247,7 +4248,7 @@ table.dataTable th:active {
     clear: both;
   }
 
-  /* line 3721, ../src/sass/_agency.scss */
+  /* line 3722, ../src/sass/_agency.scss */
   a.btn-add-event,
   #sidebar-primary .filter-form label {
     font-size: 0.75em;
@@ -4255,82 +4256,82 @@ table.dataTable th:active {
 
   /*Columns Shortcodes
   -------------------------------------------------------------- */
-  /* line 3728, ../src/sass/_agency.scss */
+  /* line 3729, ../src/sass/_agency.scss */
   .twocol-one {
     width: 100%;
   }
 
-  /* line 3731, ../src/sass/_agency.scss */
+  /* line 3732, ../src/sass/_agency.scss */
   .threecol-one {
     width: 100%;
   }
 
-  /* line 3734, ../src/sass/_agency.scss */
+  /* line 3735, ../src/sass/_agency.scss */
   .threecol-two {
     width: 100%;
   }
 
-  /* line 3737, ../src/sass/_agency.scss */
+  /* line 3738, ../src/sass/_agency.scss */
   .fourcol-one {
     width: 100%;
   }
 
-  /* line 3740, ../src/sass/_agency.scss */
+  /* line 3741, ../src/sass/_agency.scss */
   .fourcol-two {
     width: 100%;
   }
 
-  /* line 3743, ../src/sass/_agency.scss */
+  /* line 3744, ../src/sass/_agency.scss */
   .fourcol-three {
     width: 100%;
   }
 
-  /* line 3746, ../src/sass/_agency.scss */
+  /* line 3747, ../src/sass/_agency.scss */
   .fivecol-one {
     width: 100%;
   }
 
-  /* line 3749, ../src/sass/_agency.scss */
+  /* line 3750, ../src/sass/_agency.scss */
   .fivecol-two {
     width: 100%;
   }
 
-  /* line 3752, ../src/sass/_agency.scss */
+  /* line 3753, ../src/sass/_agency.scss */
   .fivecol-three {
     width: 100%;
   }
 
-  /* line 3755, ../src/sass/_agency.scss */
+  /* line 3756, ../src/sass/_agency.scss */
   .fivecol-four {
     width: 100%;
   }
 
-  /* line 3758, ../src/sass/_agency.scss */
+  /* line 3759, ../src/sass/_agency.scss */
   .sixcol-one {
     width: 100%;
   }
 
-  /* line 3761, ../src/sass/_agency.scss */
+  /* line 3762, ../src/sass/_agency.scss */
   .sixcol-two {
     width: 100%;
   }
 
-  /* line 3764, ../src/sass/_agency.scss */
+  /* line 3765, ../src/sass/_agency.scss */
   .sixcol-three {
     width: 100%;
   }
 
-  /* line 3767, ../src/sass/_agency.scss */
+  /* line 3768, ../src/sass/_agency.scss */
   .sixcol-four {
     width: 100%;
   }
 
-  /* line 3770, ../src/sass/_agency.scss */
+  /* line 3771, ../src/sass/_agency.scss */
   .sixcol-five {
     width: 100%;
   }
 
-  /* line 3773, ../src/sass/_agency.scss */
+  /* line 3774, ../src/sass/_agency.scss */
   .twocol-one, .threecol-one, .threecol-two, .fourcol-one, .fourcol-two, .fourcol-three, .fivecol-one, .fivecol-two, .fivecol-three, .fivecol-four, .sixcol-one, .sixcol-two, .sixcol-three, .sixcol-four, .sixcol-five {
     float: none;
     margin: 0;
@@ -4338,58 +4339,58 @@ table.dataTable th:active {
     clear: both;
   }
 
-  /* line 3779, ../src/sass/_agency.scss */
+  /* line 3780, ../src/sass/_agency.scss */
   .last {
     clear: both;
   }
 }
 /*/mediaquery*/
 @media only screen and (max-width: 990px) {
-  /* line 3789, ../src/sass/_agency.scss */
+  /* line 3790, ../src/sass/_agency.scss */
   #menu-primary nav.menu #menu-primary-items {
     padding-left: 5px;
   }
 
-  /* line 3792, ../src/sass/_agency.scss */
+  /* line 3793, ../src/sass/_agency.scss */
   #menu-primary li {
     margin-right: 16px;
   }
 
-  /* line 3795, ../src/sass/_agency.scss */
+  /* line 3796, ../src/sass/_agency.scss */
   #menu-primary li a {
     font-size: 0.75em;
     /* 13px / 16px */
   }
 
-  /* line 3798, ../src/sass/_agency.scss */
+  /* line 3799, ../src/sass/_agency.scss */
   #menu-primary li.arrow > a {
     background: transparent url(../img/arrows-sprite.png) no-repeat scroll right -78px;
   }
 
-  /* line 3801, ../src/sass/_agency.scss */
+  /* line 3802, ../src/sass/_agency.scss */
   #menu-primary li.arrow:hover > a {
     background: #646668 url(../img/arrows-sprite.png) no-repeat scroll right -88px;
   }
 
-  /* line 3804, ../src/sass/_agency.scss */
+  /* line 3805, ../src/sass/_agency.scss */
   #menu-subsidiary nav.menu {
     padding-left: 15px;
   }
 
-  /* line 3807, ../src/sass/_agency.scss */
+  /* line 3808, ../src/sass/_agency.scss */
   #menu-subsidiary li a {
     padding-right: 15px;
     font-size: 0.75em;
     /* 13px / 16px */
   }
 
-  /* line 3811, ../src/sass/_agency.scss */
+  /* line 3812, ../src/sass/_agency.scss */
   .print-friendly {
     font-size: 0.75em;
     /* 13px / 16px */
   }
 
-  /* line 3814, ../src/sass/_agency.scss */
+  /* line 3815, ../src/sass/_agency.scss */
   #footer {
     font-size: 0.75em;
     /* 13px / 16px */
@@ -4399,7 +4400,7 @@ table.dataTable th:active {
 /*Print Styles
 -------------------------------------------------------------- */
 @media print {
-  /* line 3826, ../src/sass/_agency.scss */
+  /* line 3827, ../src/sass/_agency.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -4410,41 +4411,41 @@ table.dataTable th:active {
     position: static;
   }
 
-  /* line 3835, ../src/sass/_agency.scss */
+  /* line 3836, ../src/sass/_agency.scss */
   a, a:visited {
     color: #444 !important;
     text-decoration: underline;
   }
 
-  /* line 3839, ../src/sass/_agency.scss */
+  /* line 3840, ../src/sass/_agency.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 3842, ../src/sass/_agency.scss */
+  /* line 3843, ../src/sass/_agency.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 3845, ../src/sass/_agency.scss */
+  /* line 3846, ../src/sass/_agency.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 3849, ../src/sass/_agency.scss */
+  /* line 3850, ../src/sass/_agency.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 3853, ../src/sass/_agency.scss */
+  /* line 3854, ../src/sass/_agency.scss */
   thead {
     display: table-header-group;
   }
 
   /* css-discuss.incutio.com/wiki/Printing_Tables */
-  /* line 3857, ../src/sass/_agency.scss */
+  /* line 3858, ../src/sass/_agency.scss */
   tr, img {
     page-break-inside: avoid;
   }
@@ -4452,23 +4453,23 @@ table.dataTable th:active {
   @page {
     margin: 0.5cm;
   }
-  /* line 3863, ../src/sass/_agency.scss */
+  /* line 3864, ../src/sass/_agency.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 3867, ../src/sass/_agency.scss */
+  /* line 3868, ../src/sass/_agency.scss */
   h2, h3 {
     page-break-after: avoid;
   }
 
-  /* line 3871, ../src/sass/_agency.scss */
+  /* line 3872, ../src/sass/_agency.scss */
   .skip-top {
     display: none;
   }
 
-  /* line 3875, ../src/sass/_agency.scss */
+  /* line 3876, ../src/sass/_agency.scss */
   #site-title,
   #site-title a,
   #site-title img {
@@ -4476,7 +4477,7 @@ table.dataTable th:active {
   }
 
   /* Container */
-  /* line 3882, ../src/sass/_agency.scss */
+  /* line 3883, ../src/sass/_agency.scss */
   #container {
     min-width: 100%;
     max-width: 100%;
@@ -4487,17 +4488,17 @@ table.dataTable th:active {
     padding: 0;
   }
 
-  /* line 3892, ../src/sass/_agency.scss */
+  /* line 3893, ../src/sass/_agency.scss */
   #header {
     width: 100%;
   }
 
-  /* line 3895, ../src/sass/_agency.scss */
+  /* line 3896, ../src/sass/_agency.scss */
   #branding {
     padding: 0;
   }
 
-  /* line 3899, ../src/sass/_agency.scss */
+  /* line 3900, ../src/sass/_agency.scss */
   #menu-primary,
   #menu-secondary,
   #menu-subsidiary,
@@ -4505,18 +4506,18 @@ table.dataTable th:active {
     display: none;
   }
 
-  /* line 3906, ../src/sass/_agency.scss */
+  /* line 3907, ../src/sass/_agency.scss */
   #banner-primary,
   #banner-primary .wrap {
     display: none;
   }
 
-  /* line 3911, ../src/sass/_agency.scss */
+  /* line 3912, ../src/sass/_agency.scss */
   .browse-home {
     display: none;
   }
 
-  /* line 3915, ../src/sass/_agency.scss */
+  /* line 3916, ../src/sass/_agency.scss */
   #main .link-list,
   #main .link-list li,
   #main .link-list li a {
@@ -4527,7 +4528,7 @@ table.dataTable th:active {
     clear: both;
   }
 
-  /* line 3925, ../src/sass/_agency.scss */
+  /* line 3926, ../src/sass/_agency.scss */
   #main .link-list ul {
     float: none;
     clear: both;
@@ -4535,7 +4536,7 @@ table.dataTable th:active {
     margin-left: 0;
   }
 
-  /* line 3932, ../src/sass/_agency.scss */
+  /* line 3933, ../src/sass/_agency.scss */
   .title-block {
     width: 100%;
     padding: 30px 0 25px 0;
@@ -4543,7 +4544,7 @@ table.dataTable th:active {
     border-bottom: 4px solid #000;
   }
 
-  /* line 3939, ../src/sass/_agency.scss */
+  /* line 3940, ../src/sass/_agency.scss */
   .breadcrumbs {
     padding: 0 0 10px 0;
     margin: 0;
@@ -4551,13 +4552,13 @@ table.dataTable th:active {
     display: none;
   }
 
-  /* line 3946, ../src/sass/_agency.scss */
+  /* line 3947, ../src/sass/_agency.scss */
   .breadcrumbs a.trail-begin,
   .breadcrumbs .sep {
     display: none;
   }
 
-  /* line 3951, ../src/sass/_agency.scss */
+  /* line 3952, ../src/sass/_agency.scss */
   #main,
   #main .wrap {
     width: 100%;
@@ -4568,7 +4569,7 @@ table.dataTable th:active {
     clear: both;
   }
 
-  /* line 3961, ../src/sass/_agency.scss */
+  /* line 3962, ../src/sass/_agency.scss */
   #main #content,
   #main #content .hfeed {
     width: 100%;
@@ -4579,46 +4580,46 @@ table.dataTable th:active {
     margin: 0;
   }
 
-  /* line 3971, ../src/sass/_agency.scss */
+  /* line 3972, ../src/sass/_agency.scss */
   #main #content {
     padding-bottom: 20px;
   }
 
-  /* line 3975, ../src/sass/_agency.scss */
+  /* line 3976, ../src/sass/_agency.scss */
   #main .entry-title {
     width: 100%;
   }
 
-  /* line 3978, ../src/sass/_agency.scss */
+  /* line 3979, ../src/sass/_agency.scss */
   .entry-title a {
     text-decoration: none;
   }
 
-  /* line 3981, ../src/sass/_agency.scss */
+  /* line 3982, ../src/sass/_agency.scss */
   .entry-title a[href]:after {
     content: "";
     text-decoration: none;
   }
 
-  /* line 3986, ../src/sass/_agency.scss */
+  /* line 3987, ../src/sass/_agency.scss */
   .singular .entry-meta {
     margin: 0;
     padding: 0;
   }
 
-  /* line 3991, ../src/sass/_agency.scss */
+  /* line 3992, ../src/sass/_agency.scss */
   .loop-nav {
     display: none;
     margin: 0;
     padding: 0;
   }
 
-  /* line 3997, ../src/sass/_agency.scss */
+  /* line 3998, ../src/sass/_agency.scss */
   .sub-page-list a[href]:after {
     content: "";
   }
 
-  /* line 4001, ../src/sass/_agency.scss */
+  /* line 4002, ../src/sass/_agency.scss */
   .opportunities-list {
     padding: 5px 0;
     border: none;
@@ -4626,45 +4627,45 @@ table.dataTable th:active {
     border-bottom: 1px solid #000;
   }
 
-  /* line 4008, ../src/sass/_agency.scss */
+  /* line 4009, ../src/sass/_agency.scss */
   .opportunities-list li {
     padding-left: 0;
     padding-right: 0;
     border: none;
   }
 
-  /* line 4014, ../src/sass/_agency.scss */
+  /* line 4015, ../src/sass/_agency.scss */
   .opportunities-list li li span {
     display: none;
   }
 
-  /* line 4018, ../src/sass/_agency.scss */
+  /* line 4019, ../src/sass/_agency.scss */
   .opportunities-list-link img {
     display: none;
   }
 
-  /* line 4022, ../src/sass/_agency.scss */
+  /* line 4023, ../src/sass/_agency.scss */
   .case-studies-list li {
     padding-left: 0;
     padding-right: 0;
   }
 
-  /* line 4027, ../src/sass/_agency.scss */
+  /* line 4028, ../src/sass/_agency.scss */
   .footnotes .footnotetoggle {
     display: none;
   }
 
-  /* line 4031, ../src/sass/_agency.scss */
+  /* line 4032, ../src/sass/_agency.scss */
   .footnotes ol {
     display: block !important;
   }
 
-  /* line 4035, ../src/sass/_agency.scss */
+  /* line 4036, ../src/sass/_agency.scss */
   .footnotes ol .footnotereverse {
     display: none;
   }
 
-  /* line 4039, ../src/sass/_agency.scss */
+  /* line 4040, ../src/sass/_agency.scss */
   #sidebar-primary,
   #sidebar-primary .wrap,
   #sidebar-home,
@@ -4679,7 +4680,7 @@ table.dataTable th:active {
     right: auto;
   }
 
-  /* line 4053, ../src/sass/_agency.scss */
+  /* line 4054, ../src/sass/_agency.scss */
   #sidebar-primary .widget,
   #sidebar-home .widget,
   #sidebar-links,
@@ -4687,7 +4688,7 @@ table.dataTable th:active {
     display: none;
   }
 
-  /* line 4060, ../src/sass/_agency.scss */
+  /* line 4061, ../src/sass/_agency.scss */
   #sidebar-last-modified {
     width: 100%;
     clear: both;
@@ -4701,12 +4702,12 @@ table.dataTable th:active {
     letter-spacing: normal;
   }
 
-  /* line 4072, ../src/sass/_agency.scss */
+  /* line 4073, ../src/sass/_agency.scss */
   #sidebar-last-modified span {
     display: inline;
   }
 
-  /* line 4076, ../src/sass/_agency.scss */
+  /* line 4077, ../src/sass/_agency.scss */
   #footer {
     width: 100%;
     border-top: 4px solid #000;
@@ -4716,82 +4717,82 @@ table.dataTable th:active {
 
   /*Columns Shortcodes
   -------------------------------------------------------------- */
-  /* line 4085, ../src/sass/_agency.scss */
+  /* line 4086, ../src/sass/_agency.scss */
   .twocol-one {
     width: 100%;
   }
 
-  /* line 4088, ../src/sass/_agency.scss */
+  /* line 4089, ../src/sass/_agency.scss */
   .threecol-one {
     width: 100%;
   }
 
-  /* line 4091, ../src/sass/_agency.scss */
+  /* line 4092, ../src/sass/_agency.scss */
   .threecol-two {
     width: 100%;
   }
 
-  /* line 4094, ../src/sass/_agency.scss */
+  /* line 4095, ../src/sass/_agency.scss */
   .fourcol-one {
     width: 100%;
   }
 
-  /* line 4097, ../src/sass/_agency.scss */
+  /* line 4098, ../src/sass/_agency.scss */
   .fourcol-two {
     width: 100%;
   }
 
-  /* line 4100, ../src/sass/_agency.scss */
+  /* line 4101, ../src/sass/_agency.scss */
   .fourcol-three {
     width: 100%;
   }
 
-  /* line 4103, ../src/sass/_agency.scss */
+  /* line 4104, ../src/sass/_agency.scss */
   .fivecol-one {
     width: 100%;
   }
 
-  /* line 4106, ../src/sass/_agency.scss */
+  /* line 4107, ../src/sass/_agency.scss */
   .fivecol-two {
     width: 100%;
   }
 
-  /* line 4109, ../src/sass/_agency.scss */
+  /* line 4110, ../src/sass/_agency.scss */
   .fivecol-three {
     width: 100%;
   }
 
-  /* line 4112, ../src/sass/_agency.scss */
+  /* line 4113, ../src/sass/_agency.scss */
   .fivecol-four {
     width: 100%;
   }
 
-  /* line 4115, ../src/sass/_agency.scss */
+  /* line 4116, ../src/sass/_agency.scss */
   .sixcol-one {
     width: 100%;
   }
 
-  /* line 4118, ../src/sass/_agency.scss */
+  /* line 4119, ../src/sass/_agency.scss */
   .sixcol-two {
     width: 100%;
   }
 
-  /* line 4121, ../src/sass/_agency.scss */
+  /* line 4122, ../src/sass/_agency.scss */
   .sixcol-three {
     width: 100%;
   }
 
-  /* line 4124, ../src/sass/_agency.scss */
+  /* line 4125, ../src/sass/_agency.scss */
   .sixcol-four {
     width: 100%;
   }
 
-  /* line 4127, ../src/sass/_agency.scss */
+  /* line 4128, ../src/sass/_agency.scss */
   .sixcol-five {
     width: 100%;
   }
 
-  /* line 4130, ../src/sass/_agency.scss */
+  /* line 4131, ../src/sass/_agency.scss */
   .twocol-one, .threecol-one, .threecol-two, .fourcol-one, .fourcol-two, .fourcol-three, .fivecol-one, .fivecol-two, .fivecol-three, .fivecol-four, .sixcol-one, .sixcol-two, .sixcol-three, .sixcol-four, .sixcol-five {
     float: none;
     margin: 0;
@@ -4799,17 +4800,17 @@ table.dataTable th:active {
     clear: both;
   }
 
-  /* line 4136, ../src/sass/_agency.scss */
+  /* line 4137, ../src/sass/_agency.scss */
   .last {
     clear: both;
   }
 
-  /* line 4140, ../src/sass/_agency.scss */
+  /* line 4141, ../src/sass/_agency.scss */
   .icon-heading img {
     display: none;
   }
 
-  /* line 4144, ../src/sass/_agency.scss */
+  /* line 4145, ../src/sass/_agency.scss */
   .search .hentry,
   .archive .hentry,
   .blog .hentry {
@@ -4818,34 +4819,34 @@ table.dataTable th:active {
     padding-right: 50px;
   }
 
-  /* line 4151, ../src/sass/_agency.scss */
+  /* line 4152, ../src/sass/_agency.scss */
   .search .hentry.eex_opportunity {
     background: transparent url(../img/search-icons-sprite-black.png) no-repeat scroll 12px -1788px !important;
   }
 
-  /* line 4154, ../src/sass/_agency.scss */
+  /* line 4155, ../src/sass/_agency.scss */
   .search .hentry.eex_case_study {
     background: transparent url(../img/search-icons-sprite-black.png) no-repeat scroll 12px -1488px !important;
   }
 
-  /* line 4157, ../src/sass/_agency.scss */
+  /* line 4158, ../src/sass/_agency.scss */
   .search .hentry.eex_resources {
     background: transparent url(../img/search-icons-sprite-black.png) no-repeat scroll 12px -2388px !important;
   }
 
-  /* line 4160, ../src/sass/_agency.scss */
+  /* line 4161, ../src/sass/_agency.scss */
   .search .hentry.eex_contact,
   .archive .hentry.eex_contact {
     background: transparent url(../img/search-icons-sprite-black.png) no-repeat scroll 12px -588px !important;
   }
 
-  /* line 4164, ../src/sass/_agency.scss */
+  /* line 4165, ../src/sass/_agency.scss */
   .search .hentry.eex_event,
   .archive .hentry.eex_event {
     background: transparent url(../img/search-icons-sprite-black.png) no-repeat scroll 12px 12px !important;
   }
 
-  /* line 4169, ../src/sass/_agency.scss */
+  /* line 4170, ../src/sass/_agency.scss */
   .pagination.loop-pagination {
     display: none;
   }
@@ -4875,8 +4876,8 @@ body.front .page-template-home-1 .browse-home a {
   font-family: 'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.7em;
   line-height: 2.090909090909091em;
-  border-top: 1px solid #48c4ef;
-  border-bottom: 1px solid #00a7e1;
+  border-top: 1px solid #0279a2;
+  border-bottom: none;
   background: transparent url(../img/chevron.png) no-repeat scroll 0.86364em 1em;
 }
 /* line 27, ../src/sass/_front.scss */
