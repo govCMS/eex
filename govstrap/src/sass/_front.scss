@@ -42,6 +42,13 @@ body.front {
     letter-spacing: 0.2em;
   }
 
+  .pane-node {
+    .pane-title {
+      display: none;
+      visibility: hidden;
+    }
+  }
+
   .pane-content {
     line-height: 1.6em;
     div.node-blog-article {

@@ -2522,6 +2522,7 @@ img.wp-smiley {
   padding: 12px 0 0 0;
   margin: 0;
   font-weight: 400;
+  font-size: 1.5em;
 }
 
 .link-list.columns-1 ul {
@@ -4196,8 +4197,8 @@ body.front .page-template-home-1 .browse-home a {
   font-family: 'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.7em;
   line-height: 2.090909090909091em;
-  border-top: 1px solid #48c4ef;
-  border-bottom: 1px solid #00a7e1;
+  border-top: 1px solid #0279a2;
+  border-bottom: none;
   background: transparent url(../img/chevron.png) no-repeat scroll 0.86364em 1em;
 }
 body.front .page-template-home-1 .browse-home a:hover {
@@ -4212,6 +4213,10 @@ body.front .pane-title {
   color: #666666;
   margin-bottom: 5px;
   letter-spacing: 0.2em;
+}
+body.front .pane-node .pane-title {
+  display: none;
+  visibility: hidden;
 }
 body.front .pane-content {
   line-height: 1.6em;
@@ -4230,6 +4235,27 @@ body.front .pane-content div.node-blog-article h4 a {
 body.front .pane-content div.node-blog-article h4 a:hover {
   color: #000;
   text-decoration: underline;
+}
+body.front #feature-wrap {
+  position: relative;
+}
+body.front #feature-wrap #feature-title {
+  position: absolute;
+  bottom: 30px;
+  background: url(../img/feature-post-bg.png) no-repeat scroll left top transparent;
+  right: 0;
+  max-width: 55%;
+  padding-left: 7%;
+}
+body.front #feature-wrap #feature-title a, body.front #feature-wrap #feature-title a:visited {
+  color: #000;
+}
+body.front #feature-wrap #feature-title p {
+  color: #000;
+  line-height: 1.25em;
+}
+body.front #feature-wrap #feature-title h3 {
+  padding-top: 0.5em;
 }
 
 /*******************
