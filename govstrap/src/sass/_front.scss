@@ -62,4 +62,28 @@ body.front {
       }
     }
   }
+
+  #feature-wrap {
+    position: relative;
+    #feature-title {
+      position: absolute;
+      bottom: 30px;
+      background: url(../img/feature-post-bg.png) no-repeat scroll left top transparent;
+      right: 0;
+      max-width: 55%;
+      padding-left: 7%;
+      a, a:visited {
+        color: #000;
+      }
+      p {
+        color: #000;
+        line-height: 1.25em;
+      }
+      h3 {
+        padding-top: 0.5em;
+      }
+    }
+  }
+
+
 }
