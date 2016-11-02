@@ -3,6 +3,12 @@
 *******************/
 
 body.page-search {
+  .search-api-page-results {
+    div.item-list {
+      padding: 20px 0;
+      border-top: 3px solid #edecec;
+    }
+  }
   aside {
     &.right-bar {
       div {

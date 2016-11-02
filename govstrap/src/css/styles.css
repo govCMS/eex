@@ -4177,6 +4177,38 @@ table.dataTable th:active {
 }
 /* The End */
 /*******************
+  Common Page Style
+*******************/
+div.item-list ul.pager {
+  font-weight: 700;
+  font-size: 0.8125em;
+  line-height: 1em;
+}
+div.item-list ul.pager li {
+  margin: 0;
+  padding: 0;
+}
+div.item-list ul.pager li.pager-current {
+  margin: 0 10px 0 0;
+  padding: 8px 11px;
+}
+div.item-list ul.pager li.pager-ellipsis {
+  margin: 0 10px 0 0;
+  padding: 8px 11px;
+}
+div.item-list ul.pager li a {
+  padding: 8px 11px;
+  margin: 0 10px 0 0;
+  color: #333;
+  border-radius: 0;
+}
+div.item-list ul.pager li a:hover {
+  color: #eee;
+  background: #252525;
+  text-decoration: underline;
+}
+
+/*******************
   Front Page Style
 *******************/
 body.front .page-template-home-1 .browse-home {
@@ -4261,6 +4293,10 @@ body.front #feature-wrap #feature-title h3 {
 /*******************
   Search Page Style
 *******************/
+body.page-search .search-api-page-results div.item-list {
+  padding: 20px 0;
+  border-top: 3px solid #edecec;
+}
 body.page-search aside.right-bar div.block-facetapi h2.block-title {
   color: #fff;
   font-weight: 400;
