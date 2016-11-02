@@ -4179,30 +4179,35 @@ table.dataTable th:active {
 /*******************
   Common Page Style
 *******************/
-div.item-list ul.pager {
+#page-content #block-system-main .content div.item-list {
+  padding: 20px 0;
+  border-top: 3px solid #edecec;
+}
+#page-content #block-system-main .content div.item-list ul.pager {
+  float: left;
   font-weight: 700;
   font-size: 0.8125em;
   line-height: 1em;
 }
-div.item-list ul.pager li {
+#page-content #block-system-main .content div.item-list ul.pager li {
   margin: 0;
   padding: 0;
 }
-div.item-list ul.pager li.pager-current {
+#page-content #block-system-main .content div.item-list ul.pager li.pager-current {
   margin: 0 10px 0 0;
   padding: 8px 11px;
 }
-div.item-list ul.pager li.pager-ellipsis {
+#page-content #block-system-main .content div.item-list ul.pager li.pager-ellipsis {
   margin: 0 10px 0 0;
   padding: 8px 11px;
 }
-div.item-list ul.pager li a {
+#page-content #block-system-main .content div.item-list ul.pager li a {
   padding: 8px 11px;
   margin: 0 10px 0 0;
   color: #333;
   border-radius: 0;
 }
-div.item-list ul.pager li a:hover {
+#page-content #block-system-main .content div.item-list ul.pager li a:hover {
   color: #eee;
   background: #252525;
   text-decoration: underline;

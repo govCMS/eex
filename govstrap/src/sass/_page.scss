@@ -2,31 +2,40 @@
   Common Page Style
 *******************/
 
-div.item-list {
-  ul.pager {
-    font-weight: 700;
-    font-size: 0.8125em;
-    line-height: 1em;
-    li {
-      margin: 0;
-      padding: 0;
-      &.pager-current {
-        margin: 0 10px 0 0;
-        padding: 8px 11px;
-      }
-      &.pager-ellipsis {
-        margin: 0 10px 0 0;
-        padding: 8px 11px;
-      }
-      a {
-        padding: 8px 11px;
-        margin: 0 10px 0 0;
-        color: #333;
-        border-radius: 0;
-        &:hover {
-          color: #eee;
-          background: #252525;
-          text-decoration: underline;
+#page-content {
+  #block-system-main {
+    .content {
+      div.item-list {
+        padding: 20px 0;
+        border-top: 3px solid #edecec;
+        ul.pager {
+          float: left;
+          font-weight: 700;
+          font-size: 0.8125em;
+          line-height: 1em;
+          li {
+            margin: 0;
+            padding: 0;
+            &.pager-current {
+              margin: 0 10px 0 0;
+              padding: 8px 11px;
+            }
+            &.pager-ellipsis {
+              margin: 0 10px 0 0;
+              padding: 8px 11px;
+            }
+            a {
+              padding: 8px 11px;
+              margin: 0 10px 0 0;
+              color: #333;
+              border-radius: 0;
+              &:hover {
+                color: #eee;
+                background: #252525;
+                text-decoration: underline;
+              }
+            }
+          }
         }
       }
     }
