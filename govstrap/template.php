@@ -33,6 +33,11 @@ function govstrap_theme(&$existing, $type, $theme, $path) {
 drupal_static_reset('element_info');
 
 /**
+ * Include WordPress helper function.
+ */
+include_once './' . drupal_get_path('theme', 'govstrap') . '/includes/wordpress.inc';
+
+/**
  * Include hook_preprocess_*() hooks.
  */
 include_once './' . drupal_get_path('theme', 'govstrap') . '/includes/preprocess.inc';
@@ -48,43 +53,11 @@ include_once './' . drupal_get_path('theme', 'govstrap') . '/includes/process.in
 include_once './' . drupal_get_path('theme', 'govstrap') . '/includes/alter.inc';
 
 /**
+ * Include menu overwrite.
+ */
+include_once './' . drupal_get_path('theme', 'govstrap') . '/includes/menu.inc';
+
+/**
  * Include normal theme overwrite.
  */
 include_once './' . drupal_get_path('theme', 'govstrap') . '/includes/theme.inc';
-
-
-
-function govstrap_menu_tree__main_menu($variables) {
-    return '<ul class="nav nav-tabs">' . $variables['tree'] . '</ul>';
-}
-
-function govstrap_menu_link__main_menu($variables) {
-    //unset all the classes
-    if (!empty($element['#attributes']['class'])) {
-        foreach ($element['#attributes']['class'] as $key => $class) {
-            if ($class != 'active') {
-                unset($element['#attributes']['class'][$key]);
-            }
-        }
-    }
-    $element = $variables['element'];
-    $output = l($element['#title'], $element['#href'], $element['#localized_options']);
-    return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . "</li>\n";
-}
-
-function govstrap_menu_tree__menu_footer_sub_menu($variables) {
-    return '<ul class="list-inline small-links">' . $variables['tree'] . '</ul>';
-}
-
-function govstrap_menu_tree__menu_top_menu($variables) {
-    return '<ul class="list-inline small-links">' . $variables['tree'] . '</ul>';
-}
-
-/*
- * Note: we add the fancy bottom part of the menu in javascript, see scripts.js
- */
-function govstrap_menu_tree__menu_block__1($variables) {
-    return '<ul class="nav nav-pills nav-stacked">' . $variables['tree'] . '</ul>';
-}
-
-
