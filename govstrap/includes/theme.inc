@@ -34,9 +34,6 @@ function govstrap_breadcrumb($variables) {
         'Search',
       );
     }
-    else {
-      $breadcrumb[] = drupal_get_title();
-    }
 
     $breadcrumbs = '<ol class="breadcrumb">';
     $i = 0;
