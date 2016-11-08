@@ -121,6 +121,20 @@ function govstrap_preprocess_page(&$variables) {
 }
 
 /**
+ * Preprocess entity.
+ *
+ * @param $variables
+ */
+function govstrap_preprocess_entity(&$variables) {
+  if ($variables['entity_type'] == 'paragraphs_item') {
+    $node = menu_get_object();
+    if (!empty($node)) {
+      $variables['theme_hook_suggestions'][] = $variables['entity_type'] . '__' . 'views' . '__' . $variables['view_mode'] . '__' . $node->nid;
+    }
+  }
+}
+
+/**
  * Implements hook_preprocess_block().
  */
 function govstrap_preprocess_block(&$variables, $hook) {
@@ -133,7 +147,7 @@ function govstrap_preprocess_block(&$variables, $hook) {
 }
 
 /**
- * Preprocess the paragraphs items.
+ * Prerocess the paragraphs items.
  *
  * @param $variables
  * @param $hook
@@ -141,6 +155,11 @@ function govstrap_preprocess_block(&$variables, $hook) {
 function govstrap_preprocess_paragraphs_items(&$variables, $hook) {
   $variables['items'] = $variables['element']['#items'];
   $variables['node'] = $variables['element']['#object'];
+  // Add theme hook suggestion.
+  $views_page = views_get_page_view();
+  if (is_object($views_page)) {
+    $variables['theme_hook_suggestions'][] = 'paragraphs_items__' . $variables['element']['#field_name'] . '__' . $variables['view_mode'] . '__' . 'views' . '__' . $views_page->name;
+  }
 }
 
 /**
