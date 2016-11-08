@@ -4350,32 +4350,16 @@ body.page-search .search-api-page-results div.item-list {
   padding: 20px 0;
   border-top: 3px solid #edecec;
 }
-body.page-search .search-form > div {
+body.page-search .search-form div {
   width: 100%;
   height: 35px;
-  background: transparent url(images/bg-search-full.png) no-repeat scroll top left;
-  overflow: hidden;
   clear: none;
   position: relative;
 }
-body.page-search .search-form > div .form-type-textfield > label {
+body.page-search .search-form div .form-type-textfield > label {
   display: none;
 }
-body.page-search input.form-text {
-  display: block;
-  width: 90%;
-  height: 35px;
-  float: left;
-  padding: 0;
-  margin: -14px 0 0 5px;
-  text-indent: 10px;
-  font-weight: 400;
-  font-size: 0.88em;
-  line-height: 2.58em;
-  color: #666;
-  border: 1px solid #C1C2C3;
-}
-body.page-search input[type="submit"] {
+body.page-search .search-form input[type="submit"] {
   border: 1px solid #DBDADA;
   color: #646668;
   font-size: 0.88em;
@@ -4393,6 +4377,20 @@ body.page-search input[type="submit"] {
   position: absolute;
   top: 0;
   right: .34em;
+}
+body.page-search input.form-text {
+  display: block;
+  width: 90%;
+  height: 35px;
+  float: left;
+  padding: 0;
+  margin: 0 0 0 5px;
+  text-indent: 10px;
+  font-weight: 400;
+  font-size: 0.88em;
+  line-height: 2.58em;
+  color: #666;
+  border: 1px solid #C1C2C3;
 }
 body.page-search aside.right-bar {
   margin-top: 1.6em;
