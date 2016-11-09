@@ -4234,6 +4234,7 @@ table.dataTable th:active {
 #main form.webform-client-form fieldset label {
   padding: 0 0 3px 0;
   font-weight: bold;
+  display: block;
 }
 
 /*******************
