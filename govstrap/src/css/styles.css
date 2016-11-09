@@ -4179,40 +4179,66 @@ table.dataTable th:active {
 /*******************
   Common Page Style
 *******************/
-#page-content #block-system-main .content div.item-list {
+#main #page-content #block-system-main .content div.item-list {
   padding: 20px 0;
   border-top: 3px solid #edecec;
 }
-#page-content #block-system-main .content div.item-list ul.pager {
+#main #page-content #block-system-main .content div.item-list ul.pager {
   float: left;
   font-weight: 700;
   font-size: 0.8125em;
   line-height: 1em;
 }
-#page-content #block-system-main .content div.item-list ul.pager li {
+#main #page-content #block-system-main .content div.item-list ul.pager li {
   margin: 0;
   padding: 0;
 }
-#page-content #block-system-main .content div.item-list ul.pager li.pager-current {
+#main #page-content #block-system-main .content div.item-list ul.pager li.pager-current {
   margin: 0 10px 0 0;
   padding: 8px 11px;
 }
-#page-content #block-system-main .content div.item-list ul.pager li.pager-ellipsis {
+#main #page-content #block-system-main .content div.item-list ul.pager li.pager-ellipsis {
   margin: 0 10px 0 0;
   padding: 8px 11px;
 }
-#page-content #block-system-main .content div.item-list ul.pager li a {
+#main #page-content #block-system-main .content div.item-list ul.pager li a {
   padding: 8px 11px;
   margin: 0 10px 0 0;
   color: #333;
   border-radius: 0;
 }
-#page-content #block-system-main .content div.item-list ul.pager li a:hover {
+#main #page-content #block-system-main .content div.item-list ul.pager li a:hover {
   color: #eee;
   background: #252525;
   text-decoration: underline;
 }
+#main form.webform-client-form {
+  margin: 20px 0;
+  padding: 0 15px;
+  background-color: #eee;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+}
+#main form.webform-client-form fieldset {
+  clear: both;
+  margin: 15px 0;
+  padding: 0;
+  font-size: 13px;
+}
+#main form.webform-client-form fieldset legend {
+  font-size: 20px;
+  line-height: 2.0em;
+  color: #646668;
+  border-bottom: 1px solid #d3d3d3;
+}
+#main form.webform-client-form fieldset label {
+  padding: 0 0 3px 0;
+  font-weight: bold;
+}
 
+/*******************
+  Common Side Style
+*******************/
 aside.right-bar {
   margin-top: 1.6em;
 }

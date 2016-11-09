@@ -2,37 +2,39 @@
   Common Page Style
 *******************/
 
-#page-content {
-  #block-system-main {
-    .content {
-      div.item-list {
-        padding: 20px 0;
-        border-top: 3px solid #edecec;
-        ul.pager {
-          float: left;
-          font-weight: 700;
-          font-size: 0.8125em;
-          line-height: 1em;
-          li {
-            margin: 0;
-            padding: 0;
-            &.pager-current {
-              margin: 0 10px 0 0;
-              padding: 8px 11px;
-            }
-            &.pager-ellipsis {
-              margin: 0 10px 0 0;
-              padding: 8px 11px;
-            }
-            a {
-              padding: 8px 11px;
-              margin: 0 10px 0 0;
-              color: #333;
-              border-radius: 0;
-              &:hover {
-                color: #eee;
-                background: #252525;
-                text-decoration: underline;
+#main {
+  #page-content {
+    #block-system-main {
+      .content {
+        div.item-list {
+          padding: 20px 0;
+          border-top: 3px solid #edecec;
+          ul.pager {
+            float: left;
+            font-weight: 700;
+            font-size: 0.8125em;
+            line-height: 1em;
+            li {
+              margin: 0;
+              padding: 0;
+              &.pager-current {
+                margin: 0 10px 0 0;
+                padding: 8px 11px;
+              }
+              &.pager-ellipsis {
+                margin: 0 10px 0 0;
+                padding: 8px 11px;
+              }
+              a {
+                padding: 8px 11px;
+                margin: 0 10px 0 0;
+                color: #333;
+                border-radius: 0;
+                &:hover {
+                  color: #eee;
+                  background: #252525;
+                  text-decoration: underline;
+                }
               }
             }
           }
@@ -40,7 +42,36 @@
       }
     }
   }
+  form {
+    &.webform-client-form {
+      margin: 20px 0;
+      padding: 0 15px;
+      background-color: #eee;
+      border: 1px solid #d3d3d3;
+      border-radius: 3px;
+      fieldset {
+        clear: both;
+        margin: 15px 0;
+        padding: 0;
+        font-size: 13px;
+        legend {
+          font-size: 20px;
+          line-height: 2.0em;
+          color: #646668;
+          border-bottom: 1px solid #d3d3d3;
+        }
+        label {
+          padding: 0 0 3px 0;
+          font-weight: bold;
+        }
+      }
+    }
+  }
 }
+
+/*******************
+  Common Side Style
+*******************/
 
 aside {
   &.right-bar {
