@@ -39,6 +39,22 @@
             }
           }
         }
+        div.view-resources-list {
+          border-top: 1px solid #edf2f4;
+          border-bottom: 1px solid #edf2f4;
+          div.resource-link {
+            padding-bottom: 0;
+            margin-bottom: 0;
+            border: none;
+          }
+          p {
+            margin-bottom: 1em;
+            padding: 0 19px 13px 45px;
+            font-size: 0.9285714285714286em;
+            line-height: 1.5;
+            font-weight: 400;
+          }
+        }
       }
     }
   }
@@ -69,6 +85,8 @@
     }
   }
 }
+
+
 
 /*******************
   Common Side Style

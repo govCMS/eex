@@ -4212,6 +4212,22 @@ table.dataTable th:active {
   background: #252525;
   text-decoration: underline;
 }
+#main #page-content #block-system-main .content div.view-resources-list {
+  border-top: 1px solid #edf2f4;
+  border-bottom: 1px solid #edf2f4;
+}
+#main #page-content #block-system-main .content div.view-resources-list div.resource-link {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+#main #page-content #block-system-main .content div.view-resources-list p {
+  margin-bottom: 1em;
+  padding: 0 19px 13px 45px;
+  font-size: 0.9285714285714286em;
+  line-height: 1.5;
+  font-weight: 400;
+}
 #main form.webform-client-form {
   margin: 20px 0;
   padding: 0 15px;
