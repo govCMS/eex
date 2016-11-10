@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 group :frontend do
-  gem 'bundler',             '> 1.7.3'
+  gem 'bundler',             '~> 1.13.6'
   gem 'compass',             '~> 1.0.1'
   gem 'sass',                '~> 3.4.5'
   gem 'scss-lint',           '~> 0.33.0'

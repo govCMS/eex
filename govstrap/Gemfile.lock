@@ -100,7 +100,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass (~> 3.3.6)
-  bundler (> 1.7.3)
+  bundler (~> 1.13.6)
   compass (~> 1.0.1)
   compass-import-once (~> 1.0.5)
   font-awesome-sass (~> 4.6.2)
@@ -109,4 +109,4 @@ DEPENDENCIES
   scss-lint (~> 0.33.0)
 
 BUNDLED WITH
-   1.13.4
+   1.13.6

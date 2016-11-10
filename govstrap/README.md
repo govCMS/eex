@@ -15,3 +15,17 @@ In theme folder, run following commands in terminal:
 ```bundle install```
 
 run 'compass watch' or 'gulp watch' to watch directory for changes :)
+
+## Mac Development
+
+### Using brew ruby
+
+```brew install ruby```
+
+```brew link --overwrite ruby```
+
+### Installing nokogiri error
+
+```brew unlink xz```
+```bundle install```
+```brew link xz```
