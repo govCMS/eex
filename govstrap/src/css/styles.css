@@ -4349,6 +4349,21 @@ body.front .pane-content .link-list h3.link-list-title {
 body.front .pane-content .link-list.columns-1 h3.link-list-title {
   color: #313130;
 }
+body.front .pane-content .view {
+  border-bottom: 3px solid #f6f5f5;
+  margin-bottom: 20px;
+}
+body.front .pane-content .view .more-link {
+  display: block;
+  padding: 10px 0;
+  font-size: 0.9285714285714286em;
+  text-align: left;
+}
+body.front .pane-content .view .more-link a {
+  color: #006a8e;
+  text-decoration: underline;
+  font-weight: 400;
+}
 body.front .pane-content div.node-blog-article h4 {
   font-weight: 400;
 }

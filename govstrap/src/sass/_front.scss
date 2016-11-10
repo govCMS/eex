@@ -66,6 +66,21 @@ body.front {
         }
       }
     }
+    .view {
+      border-bottom: 3px solid #f6f5f5;
+      margin-bottom: 20px;
+      .more-link {
+        display: block;
+        padding: 10px 0;
+        font-size: 0.9285714285714286em;
+        text-align: left;
+        a {
+          color: #006a8e;
+          text-decoration: underline;
+          font-weight: 400;
+        }
+      }
+    }
     div.node-blog-article {
       h4 {
         font-weight: 400;
