@@ -253,6 +253,7 @@ function _govstrap_custom_token_callback($m) {
 function _govstrap_custom_tokens() {
   return array(
     'resource' => '_govstrap_custom_token_resource',
+    'case-studies' => '_govstrap_cleanup_token_casestudy',
   );
 }
 
@@ -268,6 +269,26 @@ function _govstrap_custom_token_resource($attr, $extras = NULL, $tag) {
 
   if (!empty($ids)) {
     $output = views_embed_view('resources_list', 'views_block_resources', $ids);
+  }
+  else {
+    $output = '';
+  }
+
+  return $output;
+}
+
+/**
+ * Case studies token callback.
+ *
+ * @param $attr
+ * @param null $extras
+ * @param $tag
+ */
+function _govstrap_cleanup_token_casestudy($attr, $extras = NULL, $tag) {
+  $ids = $attr['ids'];
+
+  if (!empty($ids)) {
+    $output = views_embed_view('case_study_list', 'views_block_case_study', $ids);
   }
   else {
     $output = '';
