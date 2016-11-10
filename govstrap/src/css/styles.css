@@ -4353,6 +4353,9 @@ body.front .pane-content .view {
   border-bottom: 3px solid #f6f5f5;
   margin-bottom: 20px;
 }
+body.front .pane-content .view h4 {
+  font-weight: 400;
+}
 body.front .pane-content .view .more-link {
   display: block;
   padding: 10px 0;
@@ -4369,7 +4372,7 @@ body.front .pane-content div.node-blog-article h4 {
 }
 body.front .pane-content div.node-blog-article h4 a {
   color: #637e00;
-  font-size: 1.214285714285714em;
+  font-size: 1em;
   line-height: 1.647058823529412em;
   padding: 0;
   margin: 0;
