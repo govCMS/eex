@@ -1,21 +1,5 @@
-// NOTES:
-// https://markgoodyear.com/2014/01/getting-started-with-gulp/
-// http://www.sitepoint.com/introduction-gulp-js/
-// http://ilikekillnerds.com/2014/11/10-highly-useful-gulp-js-plugins-for-a-super-ninja-front-end-workflow/
-
-// *************************
-// SETUP STEPS:
-//
-// # brew|apt install node
-// # [sudo] npm install -g gulp gulp-jshint gulp-imagemin gulp-notify gulp-autoprefixer gulp-minify-css gulp-compass gulp-uncss gulp-concat gulp-uglify casperjs phantomjs-prebuilt jshint
-// # cd [path]/govcms-theme/govcms-theme/
-// # [sudo] npm link gulp gulp-jshint gulp-imagemin gulp-notify gulp-autoprefixer gulp-minify-css gulp-compass gulp-uncss gulp-concat gulp-uglify casperjs phantomjs-prebuilt jshint
-//
-// Then just run 'gulp' to watch directory for changes :)
-//
-// May encounter this on old Ubuntu: http://stackoverflow.com/questions/32490328/gulp-autoprefixer-throwing-referenceerror-promise-is-not-defined
-// *************************
-
+// Fix EventEmitter memory leak detected issue.
+require('events').EventEmitter.prototype._maxListeners = 100;
 
 // include gulp
 var gulp = require('gulp');
@@ -29,7 +13,6 @@ var uncss = require('gulp-uncss');
 var concat = require('gulp-concat');
 var minifyCSS = require('gulp-clean-css');
 var uglify = require('gulp-uglify');
-
 
 // JS minify
 gulp.task('scripts', function () {
