@@ -27,5 +27,7 @@ run 'compass watch' or 'gulp watch' to watch directory for changes :)
 ### Installing nokogiri error
 
 ```brew unlink xz```
+
 ```bundle install```
+
 ```brew link xz```
