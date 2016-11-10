@@ -4338,6 +4338,17 @@ body.front .pane-node .pane-title {
 body.front .pane-content {
   line-height: 1.6em;
 }
+body.front .pane-content .link-list h3.link-list-title {
+  color: #666666;
+  font-size: 0.8571428571428571em;
+  line-height: 1.833333333333333em;
+  padding: 12px 0 0 0;
+  margin: 0;
+  font-weight: 400;
+}
+body.front .pane-content .link-list.columns-1 h3.link-list-title {
+  color: #313130;
+}
 body.front .pane-content div.node-blog-article h4 {
   font-weight: 400;
 }
