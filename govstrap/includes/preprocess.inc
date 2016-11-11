@@ -154,6 +154,13 @@ function govstrap_preprocess_image($variables) {
 }
 
 /**
+ * Implements hook_preprocess_image().
+ */
+function govstrap_preprocess_image_style($variables) {
+  $variables['attributes']['class'][] = 'img-responsive';
+}
+
+/**
  * Prerocess the paragraphs items.
  *
  * @param $variables
