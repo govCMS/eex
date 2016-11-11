@@ -4385,6 +4385,11 @@ body.front .pane-content div.node-blog-article h4 a:hover {
 body.front #feature-wrap {
   position: relative;
 }
+body.front #feature-wrap img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 body.front #feature-wrap #feature-title {
   position: absolute;
   bottom: 30px;

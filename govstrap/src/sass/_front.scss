@@ -105,6 +105,11 @@ body.front {
 
   #feature-wrap {
     position: relative;
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
     #feature-title {
       position: absolute;
       bottom: 30px;
