@@ -4296,32 +4296,6 @@ aside.right-bar div.block-facetapi ul li a {
 /*******************
   Front Page Style
 *******************/
-body.front .page-template-home-1 .browse-home {
-  background: #006a8e;
-  border-bottom: 1px solid #006a8e;
-  position: relative;
-  z-index: 99;
-}
-body.front .page-template-home-1 .browse-home h3 {
-  font-size: 1.071428571428571em;
-  padding: 0 9px 20px 18px;
-  border-bottom: 1px solid #006a8e;
-}
-body.front .page-template-home-1 .browse-home a {
-  display: block;
-  color: #fff;
-  padding: 5px 9px 5px 42px;
-  font-family: 'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.7em;
-  line-height: 2.090909090909091em;
-  border-top: 1px solid #0279a2;
-  border-bottom: none;
-  background: transparent url(../img/chevron.png) no-repeat scroll 0.86364em 1em;
-}
-body.front .page-template-home-1 .browse-home a:hover {
-  background: #038fbf url(../img/chevron.png) no-repeat scroll 19px 50%;
-  text-decoration: underline;
-}
 body.front .pane-title {
   font-size: 1.3em;
   font-family: 'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
@@ -4330,10 +4304,6 @@ body.front .pane-title {
   color: #666666;
   margin-bottom: 5px;
   letter-spacing: 0.2em;
-}
-body.front .pane-node .pane-title {
-  display: none;
-  visibility: hidden;
 }
 body.front .pane-content {
   line-height: 1.6em;
@@ -4367,6 +4337,10 @@ body.front .pane-content .view .more-link a {
   text-decoration: underline;
   font-weight: 400;
 }
+body.front .pane-content .view.view-homepage-feature {
+  border: none;
+  margin: 0;
+}
 body.front .pane-content div.node-blog-article h4 {
   font-weight: 400;
 }
@@ -4382,15 +4356,15 @@ body.front .pane-content div.node-blog-article h4 a:hover {
   color: #000;
   text-decoration: underline;
 }
-body.front #feature-wrap {
+body.front .page-template-home-1 #panels-ipe-regionid-top #feature-wrap {
   position: relative;
 }
-body.front #feature-wrap img {
+body.front .page-template-home-1 #panels-ipe-regionid-top #feature-wrap img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-body.front #feature-wrap #feature-title {
+body.front .page-template-home-1 #panels-ipe-regionid-top #feature-wrap #feature-title {
   position: absolute;
   bottom: 30px;
   background: url(../img/feature-post-bg.png) no-repeat scroll left top transparent;
@@ -4398,15 +4372,54 @@ body.front #feature-wrap #feature-title {
   max-width: 55%;
   padding-left: 7%;
 }
-body.front #feature-wrap #feature-title a, body.front #feature-wrap #feature-title a:visited {
+body.front .page-template-home-1 #panels-ipe-regionid-top #feature-wrap #feature-title a, body.front .page-template-home-1 #panels-ipe-regionid-top #feature-wrap #feature-title a:visited {
   color: #000;
 }
-body.front #feature-wrap #feature-title p {
+body.front .page-template-home-1 #panels-ipe-regionid-top #feature-wrap #feature-title p {
   color: #000;
   line-height: 1.25em;
 }
-body.front #feature-wrap #feature-title h3 {
+body.front .page-template-home-1 #panels-ipe-regionid-top #feature-wrap #feature-title h3 {
   padding-top: 0.5em;
+}
+body.front .page-template-home-1 .browse-home {
+  background: #006a8e;
+  border-bottom: 1px solid #006a8e;
+  position: relative;
+  z-index: 99;
+}
+body.front .page-template-home-1 .browse-home h3 {
+  font-size: 1.071428571428571em;
+  padding: 0 9px 20px 18px;
+  border-bottom: 1px solid #006a8e;
+}
+body.front .page-template-home-1 .browse-home a {
+  display: block;
+  color: #fff;
+  padding: 5px 9px 5px 42px;
+  font-family: 'PT Sans', 'Trebuchet MS', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.7em;
+  line-height: 2.090909090909091em;
+  border-top: 1px solid #0279a2;
+  border-bottom: none;
+  background: transparent url(../img/chevron.png) no-repeat scroll 0.86364em 1em;
+}
+body.front .page-template-home-1 .browse-home a:hover {
+  background: #038fbf url(../img/chevron.png) no-repeat scroll 19px 50%;
+  text-decoration: underline;
+}
+body.front .page-template-home-1 #panels-ipe-regionid-left .hentry {
+  overflow: visible;
+  padding: 0;
+}
+body.front .page-template-home-1 #panels-ipe-regionid-left .pane-node .pane-title {
+  display: none;
+  visibility: hidden;
+}
+body.front .page-template-home-1 #panels-ipe-regionid-right {
+  font-size: 0.875em;
+  line-height: 1.428571428571429em;
+  padding: 27px 0 60px 0;
 }
 
 /*******************
