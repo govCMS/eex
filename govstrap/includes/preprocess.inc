@@ -197,6 +197,7 @@ function govstrap_preprocess_field__body(&$vars) {
   // Process custom tokens.
   if (!empty($vars['items'][0]['#markup'])) {
     $content = $vars['items'][0]['#markup'];
+    $content = _wysiwyg_strip_empty_tags($content);
     $content = _govstrap_custom_token_process($content);
     $vars['items'][0]['#markup'] = token_replace($content);
   }
@@ -309,4 +310,16 @@ function _govstrap_cleanup_token_casestudy($attr, $extras = NULL, $tag) {
   }
 
   return $output;
+}
+
+/**
+ * Strip empty paragraph tags migrated from WordPress
+ **/
+function _wysiwyg_strip_empty_tags($value) {
+  $replaced_value = preg_replace('/<p[^>]*>(&nbsp;|\s)*<\/p>/ui', '', $value);
+  if (!empty($replaced_value)) {
+    return $replaced_value;
+  } else {
+    return $value;
+  }
 }
