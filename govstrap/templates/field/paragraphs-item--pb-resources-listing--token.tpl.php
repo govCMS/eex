@@ -48,4 +48,3 @@ $resource_type = $paragraphs_wrapper->field_resource_type->value();
 $resource_size = $paragraphs_wrapper->field_resource_size->value();
 $resource_external = $paragraphs_wrapper->field_resource_external->value();
 print $resource_url;
-?>
