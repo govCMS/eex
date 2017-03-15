@@ -41,7 +41,7 @@ if (!empty($items)) {
     // Resource values.
     $resource_link_values = $paragraphs_wrapper->field_resource_url->value();
     $resources[] = array(
-      'url' => $resource_link_values['url'],
+      'url' => url($resource_link_values['url'], $resource_link_values),
       'type' => $paragraphs_wrapper->field_resource_type->value(),
       'size' => $paragraphs_wrapper->field_resource_size->value(),
       'external' => $paragraphs_wrapper->field_resource_external->value(),

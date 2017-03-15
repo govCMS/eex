@@ -43,7 +43,7 @@ $paragraphs_item_id = $paragraphs_wrapper->getIdentifier();
 
 // Resource values.
 $resource_link_values = $paragraphs_wrapper->field_resource_url->value();
-$resource_url = $resource_link_values['url'];
+$resource_url = url($resource_link_values['url'], $resource_link_values);
 $resource_type = $paragraphs_wrapper->field_resource_type->value();
 $resource_size = $paragraphs_wrapper->field_resource_size->value();
 $resource_external = $paragraphs_wrapper->field_resource_external->value();

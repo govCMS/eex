@@ -40,8 +40,9 @@ if (!empty($items)) {
     $paragraphs_wrapper = entity_metadata_wrapper('paragraphs_item', $paragraphs_entity);
     // Resource values.
     $resource_link_values = $paragraphs_wrapper->field_resource_url->value();
+    // Generate URL components.
     $resources[] = array(
-      'url' => $resource_link_values['url'],
+      'url' => url($resource_link_values['url'], $resource_link_values),
       'type' => $paragraphs_wrapper->field_resource_type->value(),
       'size' => $paragraphs_wrapper->field_resource_size->value(),
       'external' => $paragraphs_wrapper->field_resource_external->value(),
